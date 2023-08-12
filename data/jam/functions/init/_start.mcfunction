@@ -1,4 +1,6 @@
 tag LTHCTheMaster add convention.debug
+tag _PiggyPig_ add convention.debug
+tag Rignchen add convention.debug
 
 function jam:utils/_defs
 function jam:utils/checkers/check_minecraft_version
