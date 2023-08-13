@@ -1,5 +1,3 @@
-## advancement jam:system/portal/eat_poisonous_potato
-
 #Make reusable
 advancement revoke @s only jam:system/portal/eat_poisonous_potato
 
