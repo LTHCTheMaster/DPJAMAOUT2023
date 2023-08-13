@@ -1,0 +1,11 @@
+#If there is a portal in the otherside, just teleport
+#Otherwise, create a portal and teleport
+function jam:portal/storage/research
+
+scoreboard players reset @s jam.portal_timer
+execute at @s run playsound block.portal.travel ambient @s
+effect give @s resistance 1 255 true
+effect clear @s nausea
+
+execute if score #success jam.data matches 0 at @s run function jam:portal/create
+execute if score #success jam.data matches 1 run function jam:portal/teleport/accurate
