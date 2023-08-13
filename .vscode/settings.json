@@ -1,9 +1,16 @@
 {
 	"files.exclude": {
 		"**/desktop.ini": true,
-		".vscode/": true
+		".vscode/": true,
+		"TheFrostiaDimension-main.zip": true
 	},
 	"editor.insertSpaces": false,
     "editor.tabSize": 4,
-    "editor.detectIndentation": true
+    "editor.detectIndentation": true,
+	"datapack.env.cmdVersion": "1.20",
+	"[mcfunction]": {
+		"editor.insertSpaces": true,
+		"editor.tabSize": 4,
+		"editor.detectIndentation": true
+	}
 }
