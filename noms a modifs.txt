@@ -1,0 +1,4 @@
+
+namespace "jam"
+dimension "jamdim"
+biome "jamplain"
