@@ -1,0 +1,10 @@
+{
+	"criteria": {
+		"auto_unlock": {
+			"trigger": "tick"
+		}
+	},
+	"rewards": {
+		"function": "jam:utils/first_join"
+	}
+}

@@ -1,0 +1,4 @@
+Liste Mobs:
+	Husk
+	Stray ?
+	Phantom ?

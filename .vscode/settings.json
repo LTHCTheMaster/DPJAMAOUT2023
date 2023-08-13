@@ -1,0 +1,9 @@
+{
+	"files.exclude": {
+		"**/desktop.ini": true,
+		".vscode/": true
+	},
+	"editor.insertSpaces": false,
+    "editor.tabSize": 4,
+    "editor.detectIndentation": true
+}

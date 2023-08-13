@@ -1,0 +1,22 @@
+{
+	"criteria": {
+		"get_infected": {
+			"trigger": "entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "husk"
+					}
+				},
+				"player": {
+					"location": {
+						"dimension": "jam:jamdim"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "jam:illness/infection_mob"
+	}
+}
