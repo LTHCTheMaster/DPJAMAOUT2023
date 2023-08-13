@@ -147,22 +147,6 @@
                 }
             },
             {
-                "type": "condition",
-                "if_true": {
-                    "type": "stone_depth",
-                    "offset": 0,
-                    "surface_type": "floor",
-                    "add_surface_depth": false,
-                    "secondary_depth_range": 0
-                },
-                "then_run": {
-                    "type": "block",
-                    "result_state": {
-                        "Name": "minecraft:mycelium"
-                    }
-                }
-            },
-            {
                 "type": "sequence",
                 "sequence": [
                     {
@@ -183,10 +167,35 @@
                                 "add_stone_depth": false
                             },
                             "then_run": {
-                                "type": "block",
-                                "result_state": {
-                                    "Name": "minecraft:dirt"
-                                }
+                                "type": "sequence",
+                                "sequence": [
+                                    {
+                                        "type": "condition",
+                                        "if_true": {
+                                            "type": "minecraft:biome",
+                                            "biome_is": ["jam:jammush"]
+                                        },
+                                        "then_run": {
+                                            "type": "minecraft:block",
+                                            "result_state": {
+                                                "Name": "minecraft:mycelium"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "type": "condition",
+                                        "if_true": {
+                                            "type": "minecraft:biome",
+                                            "biome_is": ["jam:jamsoul"]
+                                        },
+                                        "then_run": {
+                                            "type": "minecraft:block",
+                                            "result_state": {
+                                                "Name": "minecraft:soul_soil"
+                                            }
+                                        }
+                                    }
+                                ]
                             }
                         }
                     },
@@ -208,10 +217,35 @@
                                 "secondary_depth_range": 0
                             },
                             "then_run": {
-                                "type": "block",
-                                "result_state": {
-                                    "Name": "minecraft:dirt"
-                                }
+                                "type": "sequence",
+                                "sequence": [
+                                    {
+                                        "type": "condition",
+                                        "if_true": {
+                                            "type": "minecraft:biome",
+                                            "biome_is": ["jam:jammush"]
+                                        },
+                                        "then_run": {
+                                            "type": "minecraft:block",
+                                            "result_state": {
+                                                "Name": "minecraft:dirt"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "type": "condition",
+                                        "if_true": {
+                                            "type": "minecraft:biome",
+                                            "biome_is": ["jam:jamsoul"]
+                                        },
+                                        "then_run": {
+                                            "type": "minecraft:block",
+                                            "result_state": {
+                                                "Name": "minecraft:soul_soil"
+                                            }
+                                        }
+                                    }
+                                ]
                             }
                         }
                     },
