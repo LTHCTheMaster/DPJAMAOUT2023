@@ -2,12 +2,12 @@
 	"type": "minecraft:overworld",
 	"generator": {
 		"type": "minecraft:noise",
-		"settings": "jam:jamdim",
+		"settings": "jam:jamdim_settings",
 		"biome_source": {
 			"type": "minecraft:multi_noise",
 			"biomes": [
 				{
-					"biome": "jam:jamplain",
+					"biome": "jam:jammush",
 					"parameters": {
 						"temperature": 0,
 						"humidity": 0,
