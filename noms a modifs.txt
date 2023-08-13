@@ -1,4 +1,4 @@
 
 namespace "jam"
 dimension "jamdim"
-biome "jamplain"
+biome "jammush"
