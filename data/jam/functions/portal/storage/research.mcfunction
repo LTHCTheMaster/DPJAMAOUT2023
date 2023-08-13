@@ -1,5 +1,3 @@
-##Called by function jam:portal/teleport/teleport
-
 #storage jam:temp all = [x, y, z]
 execute store result score #x jam.data run data get storage jam:temp all[0]
 execute store result score #y jam.data run data get storage jam:temp all[1]

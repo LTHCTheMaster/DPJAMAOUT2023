@@ -1,5 +1,3 @@
-##Called by function jam:portal/define
-
 function jam:portal/storage/convert_pos
 
 scoreboard players set #dimension jam.data 0
