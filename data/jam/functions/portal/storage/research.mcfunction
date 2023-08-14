@@ -1,12 +1,10 @@
-##Called by function jam:portal/teleport/teleport
-
 #storage jam:temp all = [x, y, z]
 execute store result score #x jam.data run data get storage jam:temp all[0]
 execute store result score #y jam.data run data get storage jam:temp all[1]
 execute store result score #z jam.data run data get storage jam:temp all[2]
 
 scoreboard players set #dimension jam.data 0
-execute store success score #dimension jam.data if predicate jam:in_jamdim
+execute store success score #dimension jam.data if predicate jam:location/in_jamdim
 
 #Search portal in storage
 scoreboard players set #success jam.data 0
