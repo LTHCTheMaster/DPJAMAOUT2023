@@ -1,0 +1,21 @@
+[
+	{
+		"condition": "entity_properties",
+		"entity": "this",
+		"predicate": {
+			"type": "item",
+			"nbt": "{Item:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:water\"}}}"
+		}
+	},
+	{
+		"condition": "inverted",
+		"term": {
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "item",
+				"nbt": "{Item:{tag:{jam:{infected_water:1b}}}}"
+			}
+		}
+	}
+]
