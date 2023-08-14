@@ -1,0 +1,6 @@
+{
+	"effects": "drowning",
+	"scaling": "always",
+	"message_id": "jam.death.plag",
+	"exhaustion": 2
+}
