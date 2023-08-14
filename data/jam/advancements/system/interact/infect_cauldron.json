@@ -1,0 +1,47 @@
+{
+	"criteria": {
+		"infect_cauldron": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "any_of",
+						"terms": [
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"equipment": {
+										"mainhand": {
+											"items": [
+												"minecraft:potion"
+											],
+											"nbt": "{Potion:\"minecraft:water\",jam:{infected_water:1b}}"
+										}
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"equipment": {
+										"offhand": {
+											"items": [
+												"minecraft:potion"
+											],
+											"nbt": "{Potion:\"minecraft:water\",jam:{infected_water:1b}}"
+										}
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "jam:interact/infect_cauldron"
+	}
+}
