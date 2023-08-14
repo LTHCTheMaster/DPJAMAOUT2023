@@ -6,6 +6,9 @@ scoreboard objectives add jam.used_empty_bottle minecraft.used:minecraft.glass_b
 #########################################
 
 scoreboard players set #defined jam.data 1
+scoreboard players set #big_prime jam.data 2147483629
+scoreboard players set #-1 jam.data -1
+scoreboard players set #5 jam.data 5
 
 ##################################################################################
 
