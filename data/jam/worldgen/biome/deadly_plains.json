@@ -35,8 +35,6 @@
       [
         "ore_dirt",
         "ore_gravel",
-        "ore_granite_upper",
-        "ore_granite_lower",
         "ore_diorite_upper",
         "ore_diorite_lower",
         "ore_andesite_upper",
@@ -56,16 +54,13 @@
         "ore_diamond_buried",
         "ore_lapis",
         "ore_lapis_buried",
-        "ore_copper",
         "disk_sand",
         "disk_clay",
         "disk_gravel"
       ],
       [],
       [
-        "brown_mushroom_normal",
-        "red_mushroom_normal",
-        "jam:wither_rose_patch"
+        "jam:deadly_plains_wither_rose_patch"
       ],
       [],
       []

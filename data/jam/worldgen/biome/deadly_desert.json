@@ -1,0 +1,83 @@
+{
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 10508073,
+    "fog_color": 10508073,
+    "water_color": 1002844,
+    "water_fog_color": 472384,
+    "grass_color": 10508073,
+    "foliage_color": 10508073,
+    "particle": {
+      "options": {
+        "type": "soul"
+      },
+      "probability": 0.01
+    }
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "husk",
+        "weight": 16,
+        "maxCount": 5,
+        "minCount": 3
+      },
+      {
+        "type": "stray",
+        "weight": 3,
+        "maxCount": 2,
+        "minCount": 4
+      },
+      {
+        "type": "cave_spider",
+        "weight": 1,
+        "maxCount": 1,
+        "minCount": 1
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "ore_dirt",
+      "ore_gravel",
+      "ore_diorite_upper",
+      "ore_diorite_lower",
+      "ore_andesite_upper",
+      "ore_andesite_lower",
+      "ore_tuff",
+      "ore_coal_upper",
+      "ore_coal_lower",
+      "ore_iron_upper",
+      "ore_iron_middle",
+      "ore_iron_small",
+      "ore_gold",
+      "ore_gold_lower",
+      "ore_redstone",
+      "ore_redstone_lower",
+      "ore_diamond",
+      "ore_diamond_large",
+      "ore_diamond_buried",
+      "ore_lapis",
+      "ore_lapis_buried",
+      "disk_sand",
+      "disk_clay",
+      "disk_gravel"
+    ],
+    [],
+    [
+      "jam:deadly_plains_wither_rose_patch"
+    ],
+    [],
+    []
+  ]
+}
