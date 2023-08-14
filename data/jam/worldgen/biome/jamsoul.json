@@ -19,5 +19,19 @@
   "spawners": {},
   "spawn_costs": {},
   "carvers": {},
-  "features": []
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "jam:wither_rose_patch"
+    ],
+    [],
+    [],
+    []
+  ]
 }

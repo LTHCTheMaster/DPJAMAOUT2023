@@ -1,29 +1,29 @@
 {
     "temperature": 0.8,
     "downfall": 0.4,
-    "has_precipitation": true,
+    "has_precipitation": false,
     "effects": {
-        "sky_color": 10508073,
-        "fog_color": 10508073,
-        "water_color": 1002844,
-        "water_fog_color": 472384,
-        "grass_color": 10508073,
-        "foliage_color": 10508073,
-        "mood_sound": {
-            "sound": "minecraft:ambient.cave",
-            "tick_delay": 6000,
-            "block_search_extent": 8,
-            "offset": 2
-        }
+      "sky_color": 10508073,
+      "fog_color": 10508073,
+      "water_color": 1002844,
+      "water_fog_color": 11174406,
+      "grass_color": 10508073,
+      "foliage_color": 10508073,
+      "mood_sound": {
+        "sound": "ambient.cave",
+        "tick_delay": 6000,
+        "block_search_extent": 8,
+        "offset": 2
+      }
     },
     "spawners": {},
     "spawn_costs": {},
     "carvers": {
-        "air": [
-            "minecraft:cave",
-            "minecraft:cave_extra_underground",
-            "minecraft:canyon"
-        ]
+      "air": [
+        "cave",
+        "cave_extra_underground",
+        "canyon"
+      ]
     },
     "features": [
       [],
@@ -33,38 +33,38 @@
       [],
       [],
       [
-        "minecraft:ore_dirt",
-        "minecraft:ore_gravel",
-        "minecraft:ore_granite_upper",
-        "minecraft:ore_granite_lower",
-        "minecraft:ore_diorite_upper",
-        "minecraft:ore_diorite_lower",
-        "minecraft:ore_andesite_upper",
-        "minecraft:ore_andesite_lower",
-        "minecraft:ore_tuff",
-        "minecraft:ore_coal_upper",
-        "minecraft:ore_coal_lower",
-        "minecraft:ore_iron_upper",
-        "minecraft:ore_iron_middle",
-        "minecraft:ore_iron_small",
-        "minecraft:ore_gold",
-        "minecraft:ore_gold_lower",
-        "minecraft:ore_redstone",
-        "minecraft:ore_redstone_lower",
-        "minecraft:ore_diamond",
-        "minecraft:ore_diamond_large",
-        "minecraft:ore_diamond_buried",
-        "minecraft:ore_lapis",
-        "minecraft:ore_lapis_buried",
-        "minecraft:ore_copper",
-        "minecraft:disk_sand",
-        "minecraft:disk_clay",
-        "minecraft:disk_gravel"
+        "ore_dirt",
+        "ore_gravel",
+        "ore_granite_upper",
+        "ore_granite_lower",
+        "ore_diorite_upper",
+        "ore_diorite_lower",
+        "ore_andesite_upper",
+        "ore_andesite_lower",
+        "ore_tuff",
+        "ore_coal_upper",
+        "ore_coal_lower",
+        "ore_iron_upper",
+        "ore_iron_middle",
+        "ore_iron_small",
+        "ore_gold",
+        "ore_gold_lower",
+        "ore_redstone",
+        "ore_redstone_lower",
+        "ore_diamond",
+        "ore_diamond_large",
+        "ore_diamond_buried",
+        "ore_lapis",
+        "ore_lapis_buried",
+        "ore_copper",
+        "disk_sand",
+        "disk_clay",
+        "disk_gravel"
       ],
       [],
       [
-        "minecraft:brown_mushroom_normal",
-        "minecraft:red_mushroom_normal",
+        "brown_mushroom_normal",
+        "red_mushroom_normal",
         "jam:wither_rose_patch"
       ],
       [],
