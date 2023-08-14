@@ -7,7 +7,7 @@
             "type": "minecraft:multi_noise",
             "biomes": [
                 {
-                    "biome": "jam:jamsoul",
+                    "biome": "jam:deadly_desert",
                     "parameters": {
                         "temperature": [
                             0,
@@ -22,7 +22,7 @@
                     }
                 },
                 {
-                    "biome": "jam:jammush",
+                    "biome": "jam:deadly_plains",
                     "parameters": {
                         "temperature": [
                             -1,

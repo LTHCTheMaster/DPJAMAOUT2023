@@ -173,7 +173,7 @@
                                         "type": "condition",
                                         "if_true": {
                                             "type": "minecraft:biome",
-                                            "biome_is": ["jam:jammush"]
+                                            "biome_is": ["jam:deadly_plains"]
                                         },
                                         "then_run": {
                                             "type": "minecraft:block",
@@ -186,7 +186,7 @@
                                         "type": "condition",
                                         "if_true": {
                                             "type": "minecraft:biome",
-                                            "biome_is": ["jam:jamsoul"]
+                                            "biome_is": ["jam:deadly_desert"]
                                         },
                                         "then_run": {
                                             "type": "minecraft:block",
@@ -223,7 +223,7 @@
                                         "type": "condition",
                                         "if_true": {
                                             "type": "minecraft:biome",
-                                            "biome_is": ["jam:jammush"]
+                                            "biome_is": ["jam:deadly_plains"]
                                         },
                                         "then_run": {
                                             "type": "minecraft:block",
@@ -236,7 +236,7 @@
                                         "type": "condition",
                                         "if_true": {
                                             "type": "minecraft:biome",
-                                            "biome_is": ["jam:jamsoul"]
+                                            "biome_is": ["jam:deadly_desert"]
                                         },
                                         "then_run": {
                                             "type": "minecraft:block",
