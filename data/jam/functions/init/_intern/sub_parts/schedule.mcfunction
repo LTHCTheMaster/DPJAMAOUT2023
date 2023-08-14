@@ -1,1 +1,1 @@
-schedule function jam:ticking_machine/tick 1t replace
+schedule function jam:core/ticking_manager 1t replace
