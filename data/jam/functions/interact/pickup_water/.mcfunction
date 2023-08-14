@@ -79,6 +79,9 @@ execute if score #slot jam.data matches 33 run loot replace entity @s inventory.
 execute if score #slot jam.data matches 34 run loot replace entity @s inventory.25 loot jam:i/infected_water_bottle
 execute if score #slot jam.data matches 35 run loot replace entity @s inventory.26 loot jam:i/infected_water_bottle
 
+# Dropped Item
+execute if score #slot jam.data matches -1024 as @e[type=item,sort=nearest,limit=1,predicate=jam:interact/water_bottle] run data modify entity @s Item set from storage jam:main REGISTRY.Items.infected_water_bottle
+
 data remove storage jam:main InventoryScan
 
 scoreboard players set #hit jam.data 1
