@@ -24,3 +24,6 @@ schedule function jam:init/_intern/sub_parts/schedule 1t replace
 scoreboard players set #jam.loaded jam.data 1
 
 tellraw @a[tag=convention.debug] {"text":"[JAM v1.0.0]","italic":false,"color":"green"}
+
+# Really specific thing
+execute in jam:emptyworld run function jam:init/_intern/setup
