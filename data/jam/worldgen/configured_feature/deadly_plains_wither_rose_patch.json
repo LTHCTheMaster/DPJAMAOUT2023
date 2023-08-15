@@ -1,40 +1,40 @@
 {
-	"type": "minecraft:random_patch",
+	"type": "random_patch",
 	"config": {
 		"tries": 69,
 		"xz_spread": 4,
 		"y_spread": 3,
 		"feature": {
 			"feature": {
-				"type": "minecraft:simple_block",
+				"type": "simple_block",
 				"config": {
 					"to_place": {
-						"type": "minecraft:simple_state_provider",
+						"type": "simple_state_provider",
 						"state": {
-							"Name": "minecraft:wither_rose"
+							"Name": "wither_rose"
 						}
 					}
 				}
 			},
 			"placement": [
 				{
-					"type": "minecraft:block_predicate_filter",
+					"type": "block_predicate_filter",
 					"predicate": {
-						"type": "minecraft:all_of",
+						"type": "all_of",
 						"predicates": [
 							{
-								"type": "minecraft:matching_blocks",
-								"blocks": "minecraft:air"
+								"type": "matching_blocks",
+								"blocks": "air"
 							},
 							{
-								"type": "minecraft:matching_blocks",
+								"type": "matching_blocks",
 								"offset": [
 									0,
 									-1,
 									0
 								],
 								"blocks": [
-									"minecraft:mycelium"
+									"mycelium"
 								]
 							}
 						]

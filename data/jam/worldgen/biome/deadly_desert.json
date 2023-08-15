@@ -1,6 +1,6 @@
 {
-  "temperature": 0.8,
-  "downfall": 0.4,
+  "temperature": 2,
+  "downfall": 0,
   "has_precipitation": false,
   "effects": {
     "sky_color": 10508073,
@@ -17,18 +17,22 @@
     }
   },
   "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
     "monster": [
       {
-        "type": "husk",
+        "type": "zombie",
         "weight": 16,
         "maxCount": 5,
         "minCount": 3
       },
       {
-        "type": "stray",
+        "type": "skeleton",
         "weight": 3,
-        "maxCount": 2,
-        "minCount": 4
+        "maxCount": 4,
+        "minCount": 2
       },
       {
         "type": "cave_spider",
@@ -36,7 +40,10 @@
         "maxCount": 1,
         "minCount": 1
       }
-    ]
+    ],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
   },
   "spawn_costs": {},
   "carvers": {},

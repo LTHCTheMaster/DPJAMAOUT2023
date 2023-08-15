@@ -2,9 +2,9 @@
 	"feature": "jam:deadly_plains_wither_rose_patch",
 	"placement": [
 		{
-			"type": "minecraft:count",
+			"type": "count",
 			"count": {
-				"type": "minecraft:uniform",
+				"type": "uniform",
 				"value": {
 					"min_inclusive": 0,
 					"max_inclusive": 9
@@ -12,12 +12,12 @@
 			}
 		},
 		{
-			"type": "minecraft:in_square"
+			"type": "in_square"
 		},
 		{
-			"type": "minecraft:height_range",
+			"type": "height_range",
 			"height": {
-				"type": "minecraft:uniform",
+				"type": "uniform",
 				"min_inclusive": {
 					"above_bottom": 4
 				},
@@ -27,7 +27,7 @@
 			}
 		},
 		{
-			"type": "minecraft:biome"
+			"type": "biome"
 		}
 	]
 }
