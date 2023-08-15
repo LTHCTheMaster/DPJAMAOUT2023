@@ -1,15 +1,33 @@
 [
 	{
-		"condition": "location_check",
-		"offsetY": 1,
-		"predicate": {
-			"dimension": "jam:jamdim",
-			"block": {
-				"blocks": [
-					"water"
-				]
+		"condition": "reference",
+		"name": "jam:location/in_jamdim"
+	},
+	{
+		"condition": "any_of",
+		"terms": [
+			{
+				"condition": "location_check",
+				"offsetY": 1,
+				"predicate": {
+					"block": {
+						"blocks": [
+							"water"
+						]
+					}
+				}
+			},
+			{
+				"condition": "location_check",
+				"predicate": {
+					"block": {
+						"blocks": [
+							"water"
+						]
+					}
+				}
 			}
-		}
+		]
 	},
 	{
 		"condition": "reference",
