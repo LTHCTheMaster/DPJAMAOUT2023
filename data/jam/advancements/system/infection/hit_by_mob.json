@@ -5,7 +5,7 @@
 			"conditions": {
 				"damage": {
 					"source_entity": {
-						"type": "husk"
+						"type": "#jam:infect"
 					}
 				},
 				"player": {
