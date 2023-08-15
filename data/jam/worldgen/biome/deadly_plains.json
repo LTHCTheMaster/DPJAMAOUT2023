@@ -19,13 +19,13 @@
     "spawners": {
       "monster": [
         {
-          "type": "husk",
+          "type": "zombie",
           "weight": 16,
           "maxCount": 5,
           "minCount": 3
         },
         {
-          "type": "stray",
+          "type": "skeleton",
           "weight": 3,
           "maxCount": 2,
           "minCount": 4
