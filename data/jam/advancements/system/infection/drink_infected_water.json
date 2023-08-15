@@ -1,0 +1,48 @@
+{
+	"criteria": {
+		"drink_infected_water": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"potion"
+					],
+					"nbt": "{jam:{infected_water:1b}}"
+				},
+				"player": [
+					{
+						"condition": "inverted",
+						"term": {
+							"condition": "any_of",
+							"terms": [
+								{
+									"condition": "entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "player",
+											"gamemode": "creative"
+										}
+									}
+								},
+								{
+									"condition": "entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "player",
+											"gamemode": "spectator"
+										}
+									}
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "jam:illness/drink_infected_water"
+	}
+}

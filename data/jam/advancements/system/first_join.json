@@ -1,7 +1,23 @@
 {
 	"criteria": {
 		"auto_unlock": {
-			"trigger": "tick"
+			"trigger": "tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "value_check",
+						"value": {
+							"type": "minecraft:score",
+							"target": {
+								"type": "minecraft:fixed",
+								"name": "#defined"
+							},
+							"score": "jam.data"
+						},
+						"range": 1
+					}
+				]
+			}
 		}
 	},
 	"rewards": {

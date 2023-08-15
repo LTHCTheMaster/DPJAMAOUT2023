@@ -1,5 +1,5 @@
 {
-    "type": "jam:jamdim_type",
+  "type": "jam:jamdim_type",
     "generator": {
         "type": "minecraft:noise",
         "settings": "jam:jamdim_settings",

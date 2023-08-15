@@ -12,6 +12,10 @@
 		}
 	},
 	{
+		"condition": "reference",
+		"name": "jam:check/check_gamemode"
+	},
+	{
 		"condition": "random_chance",
 		"chance": 0.0625
 	}
