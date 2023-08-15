@@ -1,18 +1,29 @@
 {
 	"type": "random_patch",
 	"config": {
-		"tries": 96,
-		"xz_spread": 7,
+		"tries": 69,
+		"xz_spread": 4,
 		"y_spread": 3,
 		"feature": {
 			"feature": {
 				"type": "simple_block",
 				"config": {
 					"to_place": {
-						"type": "simple_state_provider",
-						"state": {
-							"Name": "wither_rose"
-						}
+						"type": "weighted_state_provider",
+						"entries": [
+							{
+								"weight": 3,
+								"data": {
+									"Name": "brown_mushroom"
+								}
+							},
+							{
+								"weight": 2,
+								"data": {
+									"Name": "crimson_fungus"
+								}
+							}
+						]
 					}
 				}
 			},
@@ -28,13 +39,9 @@
 							},
 							{
 								"type": "matching_blocks",
-								"offset": [
-									0,
-									-1,
-									0
-								],
+								"offset": [0, -1, 0],
 								"blocks": [
-									"soul_soil"
+									"mycelium"
 								]
 							}
 						]
