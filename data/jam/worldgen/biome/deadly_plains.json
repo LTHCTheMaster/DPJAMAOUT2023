@@ -27,8 +27,8 @@
         {
           "type": "skeleton",
           "weight": 3,
-          "maxCount": 2,
-          "minCount": 4
+          "maxCount": 4,
+          "minCount": 2
         },
         {
           "type": "cave_spider",
