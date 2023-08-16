@@ -14,5 +14,10 @@
 				"to": "jam:jamdim"
 			}
 		}
+	},
+	"rewards": {
+		"recipes": [
+			"jam:strange_stew"
+		]
 	}
 }
