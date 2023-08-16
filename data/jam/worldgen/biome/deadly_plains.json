@@ -1,90 +1,96 @@
 {
-    "temperature": 0.8,
-    "downfall": 0.4,
-    "has_precipitation": false,
-    "effects": {
-      "sky_color": 10508073,
-      "fog_color": 10508073,
-      "water_color": 1002844,
-      "water_fog_color": 472384,
-      "grass_color": 10508073,
-      "foliage_color": 10508073,
-      "mood_sound": {
-        "sound": "ambient.cave",
-        "tick_delay": 6000,
-        "block_search_extent": 8,
-        "offset": 2
+  "temperature": 2,
+  "downfall": 0,
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 10508073,
+    "fog_color": 10508073,
+    "water_color": 1002844,
+    "water_fog_color": 472384,
+    "grass_color": 10508073,
+    "foliage_color": 10508073,
+    "particle": {
+      "options": {
+        "type": "mycelium"
+      },
+      "probability": 0.01
+    },
+    "mood_sound": {
+      "sound": "ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    }
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "zombie",
+        "weight": 16,
+        "maxCount": 5,
+        "minCount": 3
+      },
+      {
+        "type": "skeleton",
+        "weight": 3,
+        "maxCount": 4,
+        "minCount": 2
+      },
+      {
+        "type": "cave_spider",
+        "weight": 1,
+        "maxCount": 1,
+        "minCount": 1
       }
-    },
-    "spawners": {
-      "monster": [
-        {
-          "type": "zombie",
-          "weight": 16,
-          "maxCount": 5,
-          "minCount": 3
-        },
-        {
-          "type": "skeleton",
-          "weight": 3,
-          "maxCount": 4,
-          "minCount": 2
-        },
-        {
-          "type": "cave_spider",
-          "weight": 1,
-          "maxCount": 1,
-          "minCount": 1
-        }
-      ]
-    },
-    "spawn_costs": {},
-    "carvers": {
-      "air": [
-        "cave",
-        "cave_extra_underground",
-        "canyon"
-      ]
-    },
-    "features": [
-      [],
-      [],
-      [],
-      [],
-      [],
-      [],
-      [
-        "ore_dirt",
-        "ore_gravel",
-        "ore_diorite_upper",
-        "ore_diorite_lower",
-        "ore_andesite_upper",
-        "ore_andesite_lower",
-        "ore_tuff",
-        "ore_coal_upper",
-        "ore_coal_lower",
-        "ore_iron_upper",
-        "ore_iron_middle",
-        "ore_iron_small",
-        "ore_gold",
-        "ore_gold_lower",
-        "ore_redstone",
-        "ore_redstone_lower",
-        "ore_diamond",
-        "ore_diamond_large",
-        "ore_diamond_buried",
-        "ore_lapis",
-        "ore_lapis_buried",
-        "disk_sand",
-        "disk_clay",
-        "disk_gravel"
-      ],
-      [],
-      [
-        "jam:deadly_plains_wither_rose_patch",
-        "jam:mushroom_patch"
-      ],
-      [],
-      []
     ]
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "cave",
+      "cave_extra_underground",
+      "canyon"
+    ]
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "ore_dirt",
+      "ore_gravel",
+      "ore_diorite_upper",
+      "ore_diorite_lower",
+      "ore_andesite_upper",
+      "ore_andesite_lower",
+      "ore_tuff",
+      "ore_coal_upper",
+      "ore_coal_lower",
+      "ore_iron_upper",
+      "ore_iron_middle",
+      "ore_iron_small",
+      "ore_gold",
+      "ore_gold_lower",
+      "ore_redstone",
+      "ore_redstone_lower",
+      "ore_diamond",
+      "ore_diamond_large",
+      "ore_diamond_buried",
+      "ore_lapis",
+      "ore_lapis_buried",
+      "disk_sand",
+      "disk_clay",
+      "disk_gravel"
+    ],
+    [],
+    [
+      "jam:deadly_plains_wither_rose_patch",
+      "jam:mushroom_patch"
+    ],
+    [],
+    []
+  ]
 }
