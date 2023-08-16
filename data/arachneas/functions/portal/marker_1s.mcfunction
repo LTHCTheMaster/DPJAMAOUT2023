@@ -1,2 +1,3 @@
 #Teleport entities through portals
-execute as @e[dx=1,dy=1,dz=1,tag=!smithed.entity,tag=!smithed.block,tag=!global.ignore.pos] run function arachneas:portal/teleport/
+execute positioned ~-1 ~ ~-1 as @e[dx=1,dy=0,dz=1,tag=!smithed.entity,tag=!smithed.block,tag=!global.ignore.pos,predicate=arachneas:location/in_slab] positioned ~1 ~ ~1 run function arachneas:portal/teleport/
+particle angry_villager

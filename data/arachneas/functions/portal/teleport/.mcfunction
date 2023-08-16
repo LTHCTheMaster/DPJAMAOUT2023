@@ -1,2 +1,4 @@
-execute if entity @s[type=player,gamemode=!spectator] run function arachneas:portal/teleport/player
-execute if entity @s[type=!player] run function arachneas:portal/teleport/entity
+## function arachneas:core/tick_machine/second_1
+
+tag @s add arachneas.travel_dim
+execute in arachneas:jamdim
