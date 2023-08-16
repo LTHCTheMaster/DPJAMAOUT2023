@@ -1,3 +1,2 @@
 namespace "jam"
 dimension "jamdim"
-biome "deadly_plains"
