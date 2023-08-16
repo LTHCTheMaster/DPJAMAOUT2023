@@ -1,0 +1,50 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:leather_boots",
+			"nbt": "{display:{color:984576}}"
+		},
+		"title": "Lost world explorer",
+		"description": "Walk into this strange dimension",
+		"hidden": true
+	},
+	"parent": "arachneas:display/root",
+	"criteria": {
+		"deadly_plains": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
+								"biome": "arachneas:deadly_plains"
+							}
+						}
+					}
+				]
+			}
+		},
+		"deadly_desert": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
+								"biome": "arachneas:deadly_desert"
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		["deadly_plains"],
+		["deadly_desert"]
+	]
+}

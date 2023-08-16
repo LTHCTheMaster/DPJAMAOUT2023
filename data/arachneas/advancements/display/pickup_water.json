@@ -1,0 +1,17 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potion",
+            "nbt": "{CustomPotionColor: 1002844}"
+        },
+        "title": "Strange Water",
+        "description": "This water is anormaly murky",
+        "hidden": true
+    },
+    "parent": "arachneas:display/root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

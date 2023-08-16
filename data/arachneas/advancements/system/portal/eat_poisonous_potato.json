@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"potato":{
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"poisonous_potato"
+					]
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "arachneas:portal/eat_poisonous_potato"
+	}
+}
