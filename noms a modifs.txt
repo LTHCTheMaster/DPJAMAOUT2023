@@ -1,2 +1,5 @@
-namespace "jam"
 dimension "jamdim"
+namespace "jam"    (toujours suivis de [:."])
+dimension name "JAMDIM"
+folder name "DPJAMAOUT2023"
+display name "JAM"

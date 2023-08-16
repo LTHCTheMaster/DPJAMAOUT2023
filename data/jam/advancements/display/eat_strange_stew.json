@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "mushroom_stem",
+            "nbt": "{CustomModelData: 8971000}"
+        },
+        "title": "Local Speciality",
+        "description": "I don't think that is secured, but it's nourishing.",
+        "hidden": true
+    },
+    "parent": "jam:display/explorer",
+    "criteria": {
+		"requirement": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"mushroom_stew"
+					],
+					"nbt": "{jam:{strange_stew:1b}}"
+				}
+			}
+		}
+	}
+}

@@ -1,13 +1,14 @@
 {
 	"criteria": {
-		"drink_infected_water": {
+		"eat_infected_food": {
 			"trigger": "consume_item",
 			"conditions": {
 				"item": {
 					"items": [
-						"potion"
+						"potion",
+						"mushroom_stew"
 					],
-					"nbt": "{jam:{infected_water:1b}}"
+					"nbt": "{jam:{infected_food:1b}}"
 				},
 				"player": [
 					{
@@ -43,6 +44,6 @@
 		}
 	},
 	"rewards": {
-		"function": "jam:illness/drink_infected_water"
+		"function": "jam:illness/eat_infected_food"
 	}
 }

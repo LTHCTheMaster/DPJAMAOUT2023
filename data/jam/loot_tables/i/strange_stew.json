@@ -1,0 +1,30 @@
+{
+	"pools": [
+	{
+		"rolls": 1,
+		"bonus_rolls": 0,
+		"entries": [
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:mushroom_stew",
+			"functions": [
+			{
+				"function": "minecraft:copy_nbt",
+				"source": {
+				"type": "minecraft:storage",
+				"source": "jam:main"
+				},
+				"ops": [
+				{
+					"source": "REGISTRY.Items.strange_stew.tag",
+					"target": "{}",
+					"op": "merge"
+				}
+				]
+			}
+			]
+		}
+		]
+	}
+	]
+}
