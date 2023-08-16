@@ -10,7 +10,7 @@
     },
     "parent": "jam:display/pickup_water",
     "criteria": {
-		"drink_infected_water": {
+		"requirement": {
 			"trigger": "consume_item",
 			"conditions": {
 				"item": {
