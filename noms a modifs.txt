@@ -1,2 +1,4 @@
 namespace "jam"
 dimension "jamdim"
+display name "JAM"
+dimension name "JAMDIM"

@@ -7,3 +7,4 @@ title @s subtitle {"text":"You get infected","color":"#227C17","bold":true}
 title @s title {"text":" "}
 playsound minecraft:block.amethyst_block.resonate master @s ~ ~ ~ 1.0 0.5 1.0
 playsound minecraft:entity.spider.step master @s ~ ~ ~ 1.0 0.5 1.0
+advancement grant @s only jam:display/get_infected_1

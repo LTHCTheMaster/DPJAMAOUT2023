@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:poisonous_potato"
+		},
+		"title": "JAM",
+		"description": "All is hidden",
+		"background": "minecraft:textures/block/soul_soil.png"
+	},
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:changed_dimension",
+			"conditions": {
+				"to": "jam:jamdim"
+			}
+		}
+	}
+}
