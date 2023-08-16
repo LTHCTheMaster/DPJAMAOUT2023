@@ -1,0 +1,14 @@
+{
+	"structures": [
+		{
+			"structure": "arachneas:village",
+			"weight": 9
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 1070315219,
+		"spacing": 34,
+		"separation": 8
+	}
+}
