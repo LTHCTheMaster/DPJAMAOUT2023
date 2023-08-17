@@ -2,7 +2,11 @@
 	"structures": [
 		{
 			"structure": "arachneas:village",
-			"weight": 9
+			"weight": 19
+		},
+		{
+			"structure": "arachneas:laboratory",
+			"weight": 1
 		}
 	],
 	"placement": {
