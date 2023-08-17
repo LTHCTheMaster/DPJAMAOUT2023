@@ -35,10 +35,8 @@ data modify storage arachneas:main CompassRegistry.filled_compass_23 set from st
 ## Store all Lab Pos in all compass
 # Compass 0
 execute store result score #value_cast arachneas.data run data get storage arachneas:main PosLaboratory[0][0]
-tellraw @a {"score":{"name": "#value_cast","objective": "arachneas.data"}}
 execute store result storage arachneas:main CompassRegistry.filled_compass_0.tag.LodestonePos.X int 1.0 run scoreboard players get #value_cast arachneas.data
 execute store result score #value_cast arachneas.data run data get storage arachneas:main PosLaboratory[0][2]
-tellraw @a {"score":{"name": "#value_cast","objective": "arachneas.data"}}
 execute store result storage arachneas:main CompassRegistry.filled_compass_0.tag.LodestonePos.Z int 1.0 run scoreboard players get #value_cast arachneas.data
 
 # Compass 1
