@@ -6,4 +6,3 @@ data modify storage arachneas:main REGISTRY.Items.strange_stew set value {Slot:1
 
 # Unfilled Laboratory Compass (and filled compass registry)
 data modify storage arachneas:main REGISTRY.Items.unfilled_laboratory_compass set value {Slot:16b,id:"minecraft:compass",Count:1b,tag:{ctc:{id:"laboratory_compass",from:"arachneas",traits:{item:1b,tool:1b}},arachneas:{filled:0b},display:{Name:'[{"text":"Unfilled Laboratory Compass","italic":false,"color":"#ffffff"}]'}}}
-function arachneas:init/_intern/sub_parts/generate_compass/start
