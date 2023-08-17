@@ -5,10 +5,10 @@
     "ore_veins_enabled": false,
     "legacy_random_source": true,
     "default_block": {
-        "Name": "minecraft:stone"
+        "Name": "deepslate"
     },
     "default_fluid": {
-        "Name": "minecraft:water",
+        "Name": "water",
         "Properties": {
             "level": "0"
         }
@@ -26,21 +26,21 @@
         "lava": 0,
         "temperature": {
             "type": "shifted_noise",
-            "noise": "minecraft:temperature",
+            "noise": "temperature",
             "xz_scale": 0.25,
             "y_scale": 0,
-            "shift_x": "minecraft:shift_x",
+            "shift_x": "shift_x",
             "shift_y": 0,
-            "shift_z": "minecraft:shift_z"
+            "shift_z": "shift_z"
         },
         "vegetation": {
             "type": "shifted_noise",
-            "noise": "minecraft:vegetation",
+            "noise": "vegetation",
             "xz_scale": 0.25,
             "y_scale": 0,
-            "shift_x": "minecraft:shift_x",
+            "shift_x": "shift_x",
             "shift_y": 0,
-            "shift_z": "minecraft:shift_z"
+            "shift_z": "shift_z"
         },
         "continents": 0,
         "erosion": 0,
@@ -86,7 +86,7 @@
                                             "argument2": {
                                                 "type": "add",
                                                 "argument1": -0.9375,
-                                                "argument2": "minecraft:nether/base_3d_noise"
+                                                "argument2": "nether/base_3d_noise"
                                             }
                                         }
                                     }
@@ -111,7 +111,7 @@
                     "type": "not",
                     "invert": {
                         "type": "vertical_gradient",
-                        "random_name": "minecraft:bedrock_roof",
+                        "random_name": "bedrock_roof",
                         "true_at_and_below": {
                             "below_top": 5
                         },
@@ -123,7 +123,7 @@
                 "then_run": {
                     "type": "block",
                     "result_state": {
-                        "Name": "minecraft:bedrock"
+                        "Name": "bedrock"
                     }
                 }
             },
@@ -131,7 +131,7 @@
                 "type": "condition",
                 "if_true": {
                     "type": "vertical_gradient",
-                    "random_name": "minecraft:bedrock_floor",
+                    "random_name": "bedrock_floor",
                     "true_at_and_below": {
                         "above_bottom": 0
                     },
@@ -142,7 +142,7 @@
                 "then_run": {
                     "type": "block",
                     "result_state": {
-                        "Name": "minecraft:bedrock"
+                        "Name": "bedrock"
                     }
                 }
             },
@@ -172,26 +172,26 @@
                                     {
                                         "type": "condition",
                                         "if_true": {
-                                            "type": "minecraft:biome",
+                                            "type": "biome",
                                             "biome_is": ["arachneas:deadly_plains"]
                                         },
                                         "then_run": {
-                                            "type": "minecraft:block",
+                                            "type": "block",
                                             "result_state": {
-                                                "Name": "minecraft:mycelium"
+                                                "Name": "mycelium"
                                             }
                                         }
                                     },
                                     {
                                         "type": "condition",
                                         "if_true": {
-                                            "type": "minecraft:biome",
+                                            "type": "biome",
                                             "biome_is": ["arachneas:deadly_desert"]
                                         },
                                         "then_run": {
-                                            "type": "minecraft:block",
+                                            "type": "block",
                                             "result_state": {
-                                                "Name": "minecraft:soul_soil"
+                                                "Name": "soul_soil"
                                             }
                                         }
                                     }
@@ -222,26 +222,26 @@
                                     {
                                         "type": "condition",
                                         "if_true": {
-                                            "type": "minecraft:biome",
+                                            "type": "biome",
                                             "biome_is": ["arachneas:deadly_plains"]
                                         },
                                         "then_run": {
-                                            "type": "minecraft:block",
+                                            "type": "block",
                                             "result_state": {
-                                                "Name": "minecraft:dirt"
+                                                "Name": "dirt"
                                             }
                                         }
                                     },
                                     {
                                         "type": "condition",
                                         "if_true": {
-                                            "type": "minecraft:biome",
+                                            "type": "biome",
                                             "biome_is": ["arachneas:deadly_desert"]
                                         },
                                         "then_run": {
-                                            "type": "minecraft:block",
+                                            "type": "block",
                                             "result_state": {
-                                                "Name": "minecraft:soul_soil"
+                                                "Name": "soul_soil"
                                             }
                                         }
                                     }
@@ -273,14 +273,14 @@
                                     "then_run": {
                                         "type": "block",
                                         "result_state": {
-                                            "Name": "minecraft:stone"
+                                            "Name": "deepslate"
                                         }
                                     }
                                 },
                                 {
                                     "type": "block",
                                     "result_state": {
-                                        "Name": "minecraft:gravel"
+                                        "Name": "gravel"
                                     }
                                 }
                             ]
@@ -292,7 +292,7 @@
                 "type": "condition",
                 "if_true": {
                     "type": "vertical_gradient",
-                    "random_name": "minecraft:deepslate",
+                    "random_name": "deepslate",
                     "true_at_and_below": {
                         "absolute": 0
                     },
@@ -303,7 +303,7 @@
                 "then_run": {
                     "type": "block",
                     "result_state": {
-                        "Name": "minecraft:deepslate",
+                        "Name": "deepslate",
                         "Properties": {
                             "axis": "y"
                         }
