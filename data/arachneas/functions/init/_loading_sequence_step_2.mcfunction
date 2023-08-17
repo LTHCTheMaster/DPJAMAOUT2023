@@ -11,8 +11,9 @@ kill @e[type=marker,tag=arachneas.loading_marker]
 summon marker ~ ~1 ~ {Tags:["arachneas.loading_marker","global.ignore","global.ignore.kill","global.forceload","smithed.entity","smithed.strict"]}
 execute as @e[type=marker,tag=arachneas.loading_marker] at @s run forceload add ~ ~ ~ ~
 
-# Chunkload convention chunk
+# Chunkload convention chunk (in two dimensions)
 execute in overworld run forceload add -30000000 1600
+execute in arachneas:arachneas_dimension run forceload add -30000000 1600
 
 # Init the gamerules
 gamerule maxCommandChainLength 2147483647
