@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:jigsaw",
+	"biomes": "#arachneas:deadly_biomes",
+	"step": "surface_structures",
+	"spawn_overrides": {},
+	"start_pool": "arachneas:grave/grave",
+	"size": 6,
+	"start_height": {
+		"absolute": 29
+	},
+	"max_distance_from_center": 80,
+	"use_expansion_hack": false
+}
