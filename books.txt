@@ -1,0 +1,31 @@
+###### Extérieur
+{Slot:16b, id: "minecraft:written_book", Count: 1b, tag: {pages: ['{"text":"Day 1:\\n  Today, some of us have been away to explore a new dimension.\\n  A dimension full of a strange mushsoil variant without delightful fungi."}'], title: "Diary", author: "kssksskss"}}
+
+{id: "minecraft:written_book", Count: 1b, tag: {pages: ['{"text":"Day 2:\\n  I hear that the people in the strange green dimension have reached an endarkening place where some of they mysteriously died.\\n\\n  I\'m afraid for my father."}'], title: "Diary", author: "kssksskss"}}
+
+{Slot:16b, id: "minecraft:written_book", Count: 1b, tag: {pages: ['{"text":"Where is my father ? \\nWhy i don\'t have any news ? Is he died ? \\nNo, I can\'t think he took one\'s last breath...\\nBut...\\nMaybe...\\n..."}'], title: "Torment note", author: "kssksskss"}}
+
+{Slot:16b, id: "minecraft:written_book", Count: 1b, tag: {pages: ['{"text":" Thanks to Heavens, my father is alive and he send me a great gift.\\n I can fully breath now !\\n I hope he will never have any new troubles like that."}'], title: "Pleasure note", author: "kssksskss"}}
+
+####################################################################################
+
+
+
+###### Travailleur
+{Slot:16b, id: "minecraft:written_book", Count: 1b, tag: {pages: ['{"text":"Day 1:\\n  This land is so bright. The ground is green and smells very strange. the feeling to the touch is a little bit uncomfortable.\\n\\n  I want my mushroom, my sweet mushroom in a good mush.\\n  I\'m dreaming of a dark place full of spores"}'], title: "Diary", author: "ssksskssk"}}
+
+{Slot:16b, id: "minecraft:written_book", Count: 1b, tag: {pages: ['{"text":"Day 2:\\n  By the sadness of this world of misery, by the decrepit of this wide blue sky, i hate my job, i hate exploring dimensions and lose my friends."}'], title: "Diary", author: "ssksskssk"}}
+
+{Slot:16b, id: "minecraft:written_book", Count: 1b, tag: {pages: ['{"text":"Day 2:\\n  I wonder where is the other team.\\n\\n  What type of things can they discover far away in those creepy lands full of green \\"boom entity\\".\\n\\n  Currently, we only discovered a strange pink coloured hard dense fungus cube."}'], title: "Diary", author: "ikssisksa"}}
+
+{Slot:16b, id: "minecraft:written_book", Count: 1b, tag: {pages: ['{"text":"Day 3:\\n  We found a team that isn\'t from our dark places, they are similar to us but also very different.\\n\\n  They can bear this strange source of light in the sky. Also, they seem to trade with those great white bone made creatures who frighten us."}', '{"text":"  During a long dialogue with one of them, we learned that what we mistook for mushrooms are just vulgar planks of wood that strange creatures laid here one cold night."}'], title: "Diary", author: "ikssisksa"}}
+
+{Slot:16b, id: "minecraft:written_book", Count: 1b, tag: {pages: ['{"text":"Day 5:\\n  No, it\'s impossible !\\n  How can they live on the ocean !?\\n  What type of highly smart creature are they ??!"}'], title: "Diary", author: "ssksskssk"}}
+
+{Slot:16b, id: "minecraft:written_book", Count: 1b, tag: {pages: ['{"text":"__________\\n ¤         ¤\\n      ==\\n      ==\\n   --==--\\n      ==\\n\\n> Entit\'typ\': 0 (trader)\\n> Language:\\n    Huh\\n    Huuuh\\n    Huhh\\n    Huhhuhhh\\n> Brain: Limited "}'], title: "Study note", author: "Team iks"}}
+
+{Slot:16b, id: "minecraft:written_book", Count: 1b, tag: {pages: ['{"text":"--------\\n--------\\n-OX--XO-\\n--------\\n--------\\n\\n> Entit\'Typ\': 1 (hellish)\\n> Language:\\n    hhANHhhanh\\n    kktkkrkktkrs\\n    HhhanHHanhh\\n> Brain: \\"Just Shoot\\""}'], title: "Study note", author: "Team iks"}}
+
+{Slot:16b, id: "minecraft:written_book", Count: 1b, tag: {pages: ['{"text":"Day 11:\\n  We decided to bring back a strange trading creature to our laboratory.\\n  This entity seems to have a good genetic to breed really fast with only food, a mate and some beds."}'], title: "Diary", author: "ikssisksa"}}
+
+{Slot:16b, id: "minecraft:written_book", Count: 1b, tag: {pages: ['{"text":"Day 11:\\n  I finally achieve to escape of this grotto.\\n  I will send some news to my son, and also an object I found down here."}'], title: "Diary", author: "ssksskssk"}}
