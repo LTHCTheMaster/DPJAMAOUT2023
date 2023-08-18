@@ -4,7 +4,7 @@
 			"item": "minecraft:polished_deepslate"
 		},
 		"title": "What were they doing?",
-		"description": "Realyy strange expriences...",
+		"description": "Really strange expriences...",
 		"hidden": true
 	},
 	"parent": "arachneas:display/get_compass",

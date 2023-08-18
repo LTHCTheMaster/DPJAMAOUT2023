@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:polished_deepslate"
+		},
+		"title": "Fatherly link",
+		"description": "An old family story...",
+		"hidden": true
+	},
+	"parent": "arachneas:display/village",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"written_book"
+						],
+						"nbt": "{ctc:{from:\"arachneas\",id:\"son_book\"}}"
+					}
+				]
+			}
+		}
+	}
+}
