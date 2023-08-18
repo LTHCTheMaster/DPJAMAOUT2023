@@ -1,13 +1,13 @@
 {
-    "fallback": "empty",
+    "fallback": "arachneas:village/street/term",
     "elements": [
         {
             "weight": 1,
             "element": {
                 "element_type": "single_pool_element",
                 "projection": "rigid",
-                "location": "arachneas:village/labo",
-                "processors": "empty"
+                "location": "arachneas:village/cross",
+                "processors": "arachneas:village/main"
             }
         }
     ]

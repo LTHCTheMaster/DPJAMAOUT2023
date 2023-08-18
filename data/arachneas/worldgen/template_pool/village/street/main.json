@@ -2,29 +2,11 @@
     "fallback": "arachneas:village/street/term",
     "elements": [
         {
-            "weight": 5,
-            "element": {
-                "element_type": "single_pool_element",
-                "projection": "rigid",
-                "location": "arachneas:village/street/main",
-                "processors": "arachneas:village/main"
-            }
-        },
-        {
             "weight": 1,
             "element": {
                 "element_type": "single_pool_element",
                 "projection": "rigid",
-                "location": "arachneas:village/street/long/left",
-                "processors": "arachneas:village/main"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "single_pool_element",
-                "projection": "rigid",
-                "location": "arachneas:village/street/long/right",
+                "location": "arachneas:village/street",
                 "processors": "arachneas:village/main"
             }
         }

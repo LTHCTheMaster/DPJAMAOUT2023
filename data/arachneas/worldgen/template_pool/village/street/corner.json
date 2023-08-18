@@ -6,8 +6,14 @@
             "element": {
                 "element_type": "single_pool_element",
                 "projection": "rigid",
-                "location": "arachneas:village/street/labo",
+                "location": "arachneas:village/street",
                 "processors": "arachneas:village/main"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "empty_pool_element"
             }
         }
     ]
