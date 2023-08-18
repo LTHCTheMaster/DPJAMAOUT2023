@@ -2,17 +2,21 @@
 	"structures": [
 		{
 			"structure": "arachneas:village",
-			"weight": 19
+			"weight": 151
 		},
 		{
 			"structure": "arachneas:laboratory",
+			"weight": 8
+		},
+		{
+			"structure": "arachneas:grave",
 			"weight": 1
 		}
 	],
 	"placement": {
 		"type": "minecraft:random_spread",
 		"salt": 1070315219,
-		"spacing": 34,
-		"separation": 8
+		"spacing": 35,
+		"separation": 9
 	}
 }
