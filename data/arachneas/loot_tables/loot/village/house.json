@@ -1,0 +1,89 @@
+{
+	"type": "chest",
+	"pools": [
+		{
+			"rolls": {
+				"min": 0,
+				"max": 1
+			},
+			"entries": [
+				{
+					"type": "loot_table",
+					"name": "arachneas:loot/fixed_loot/day_2",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "arachneas:loot/fixed_loot/day_3",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "arachneas:loot/fixed_loot/hellish_journey",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "arachneas:loot/fixed_loot/kidnapping_of_villagers",
+					"weight": 1
+				},
+				{
+					"type": "empty",
+					"weight": 16
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 1,
+				"max": 4
+			},
+			"entries": [
+				{
+					"type": "item",
+					"name": "brown_mushroom",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"type": "binomial",
+								"n": 4,
+								"p": 0.49
+							}
+						}
+					],
+					"weight": 3
+				},
+				{
+					"type": "item",
+					"name": "crimson_fungus",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"type": "binomial",
+								"n": 4,
+								"p": 0.37
+							}
+						}
+					],
+					"weight": 3
+				},
+				{
+					"type": "item",
+					"name": "string",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 2,
+								"max": 4
+							}
+						}
+					],
+					"weight": 1
+				}
+			]
+		}
+	]
+}
