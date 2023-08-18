@@ -3,7 +3,7 @@
 	"biomes": "#arachneas:deadly_biomes",
 	"step": "surface_structures",
 	"spawn_overrides": {},
-	"start_pool": "arachneas:portal/main",
+	"start_pool": "arachneas:laboratory/start",
 	"size": 6,
 	"start_height": {
 		"absolute": 32
