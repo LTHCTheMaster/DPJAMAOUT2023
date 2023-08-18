@@ -1,0 +1,113 @@
+{
+    "fallback": "empty",
+    "elements": [
+        {
+            "weight": 6,
+            "element": {
+                "element_type": "single_pool_element",
+                "projection": "rigid",
+                "location": "arachneas:village/street/term/term_0",
+                "processors": "arachneas:village/main"
+            }
+        },
+        {
+            "weight": 6,
+            "element": {
+                "element_type": "single_pool_element",
+                "projection": "rigid",
+                "location": "arachneas:village/street/term/term_1",
+                "processors": "arachneas:village/main"
+            }
+        },
+        {
+            "weight": 4,
+            "element": {
+                "element_type": "single_pool_element",
+                "projection": "rigid",
+                "location": "arachneas:village/street/term/term_2",
+                "processors": "arachneas:village/main"
+            }
+        },
+        {
+            "weight": 4,
+            "element": {
+                "element_type": "single_pool_element",
+                "projection": "rigid",
+                "location": "arachneas:village/street/term/term_3",
+                "processors": "arachneas:village/main"
+            }
+        },
+        {
+            "weight": 3,
+            "element": {
+                "element_type": "single_pool_element",
+                "projection": "rigid",
+                "location": "arachneas:village/street/term/term_4",
+                "processors": "arachneas:village/main"
+            }
+        },
+        {
+            "weight": 3,
+            "element": {
+                "element_type": "single_pool_element",
+                "projection": "rigid",
+                "location": "arachneas:village/street/term/term_5",
+                "processors": "arachneas:village/main"
+            }
+        },
+        {
+            "weight": 3,
+            "element": {
+                "element_type": "single_pool_element",
+                "projection": "rigid",
+                "location": "arachneas:village/street/term/term_6",
+                "processors": "arachneas:village/main"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "single_pool_element",
+                "projection": "rigid",
+                "location": "arachneas:village/street/term/term_7",
+                "processors": "arachneas:village/main"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "single_pool_element",
+                "projection": "rigid",
+                "location": "arachneas:village/street/term/term_8",
+                "processors": "arachneas:village/main"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "single_pool_element",
+                "projection": "rigid",
+                "location": "arachneas:village/street/term/term_9",
+                "processors": "arachneas:village/main"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "projection": "rigid",
+                "location": "arachneas:village/street/term/term_10",
+                "processors": "arachneas:village/main"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "projection": "rigid",
+                "location": "arachneas:village/street/term/term_11",
+                "processors": "arachneas:village/main"
+            }
+        }
+    ]
+}

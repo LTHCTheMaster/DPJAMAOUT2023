@@ -1,0 +1,40 @@
+[
+    {
+        "condition": "location_check",
+        "predicate": {
+            "block": {
+                "blocks": [
+                    "brewing_stand"
+                ]
+            }
+        }
+    },
+    {
+        "condition": "any_of",
+        "terms": [
+            {
+                "condition": "location_check",
+                "offsetY": -1,
+                "predicate": {
+                    "block": {
+                        "tag": "campfires",
+                        "state": {
+                            "lit": true
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "location_check",
+                "offsetY": -1,
+                "predicate": {
+                    "block":{
+                        "blocks": [
+                            "fire"
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+]

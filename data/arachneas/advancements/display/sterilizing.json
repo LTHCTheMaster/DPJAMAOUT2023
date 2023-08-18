@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potion",
+            "nbt": "{CustomPotionColor: 2139076}"
+        },
+        "title": "Sterilized Water",
+        "description": "You understood the Arachneas' knowledge",
+        "hidden": true
+    },
+    "parent": "arachneas:display/pickup_water",
+    "criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"potion"
+						],
+						"nbt": "{ctc:{from:\"arachneas\",id:\"sterilized_infected_water_bottle\"}}"
+					}
+				]
+			}
+		}
+	}
+}

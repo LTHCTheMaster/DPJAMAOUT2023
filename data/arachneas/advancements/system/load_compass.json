@@ -1,0 +1,27 @@
+{
+	"criteria": {
+		"auto_unlock": {
+			"trigger": "changed_dimension",
+			"conditions": {
+				"player": [
+					{
+						"condition": "value_check",
+						"value": {
+							"type": "minecraft:score",
+							"target": {
+								"type": "minecraft:fixed",
+								"name": "#reached"
+							},
+							"score": "arachneas.data"
+						},
+						"range": -1024
+					}
+				],
+				"to": "arachneas:arachneas_dimension"
+			}
+		}
+	},
+	"rewards": {
+		"function": "arachneas:init/_intern/sub_parts/generate_compass/call"
+	}
+}
