@@ -1,0 +1,517 @@
+[
+	{
+		"condition": "location_check",
+		"predicate": {
+			"block": {
+				"blocks": [
+					"deepslate_brick_slab"
+				],
+				"state": {
+					"type": "bottom",
+					"waterlogged": true
+				}
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetX": 1,
+		"predicate": {
+			"block": {
+				"tag": "arachneas:laboratory/pipe"
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetX": -1,
+		"predicate": {
+			"block": {
+				"tag": "arachneas:laboratory/pipe"
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetX": -4,
+		"predicate": {
+			"block": {
+				"tag": "arachneas:laboratory/pipe"
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetX": -5,
+		"predicate": {
+			"block": {
+				"blocks": [
+					"brewing_stand"
+				]
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetX": -6,
+		"predicate": {
+			"block": {
+				"tag": "arachneas:laboratory/pipe"
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetZ": -1,
+		"predicate": {
+			"block": {
+				"tag": "arachneas:laboratory/pipe"
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetZ": 1,
+		"predicate": {
+			"block": {
+				"tag": "arachneas:laboratory/pipe"
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetZ": -1,
+		"offsetX": -5,
+		"predicate": {
+			"block": {
+				"tag": "arachneas:laboratory/pipe"
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetZ": 1,
+		"offsetX": -5,
+		"predicate": {
+			"block": {
+				"tag": "arachneas:laboratory/pipe"
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetY": 1,
+		"predicate": {
+			"block": {
+				"tag": "arachneas:air"
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetX": -5,
+		"offsetY": 1,
+		"predicate": {
+			"block": {
+				"tag": "arachneas:air"
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetY": -1,
+		"predicate": {
+			"block": {
+				"tag": "arachneas:laboratory/pipe"
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetX": -5,
+		"offsetY": -1,
+		"predicate": {
+			"block": {
+				"tag": "arachneas:laboratory/pipe"
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetX": 1,
+		"offsetY": 2,
+		"predicate": {
+			"block": {
+				"tag": "arachneas:laboratory/pipe"
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetX": -1,
+		"offsetY": 2,
+		"predicate": {
+			"block": {
+				"tag": "arachneas:laboratory/pipe"
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetX": -2,
+		"offsetY": 2,
+		"predicate": {
+			"block": {
+				"tag": "arachneas:laboratory/pipe"
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetX": -3,
+		"offsetY": 2,
+		"predicate": {
+			"block": {
+				"tag": "arachneas:laboratory/pipe"
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetX": -4,
+		"offsetY": 2,
+		"predicate": {
+			"block": {
+				"tag": "arachneas:laboratory/pipe"
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetX": -6,
+		"offsetY": 2,
+		"predicate": {
+			"block": {
+				"tag": "arachneas:laboratory/pipe"
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetZ": -1,
+		"offsetY": 2,
+		"predicate": {
+			"block": {
+				"tag": "arachneas:laboratory/pipe"
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetZ": 1,
+		"offsetY": 2,
+		"predicate": {
+			"block": {
+				"tag": "arachneas:laboratory/pipe"
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetZ": -1,
+		"offsetX": -5,
+		"offsetY": 2,
+		"predicate": {
+			"block": {
+				"tag": "arachneas:laboratory/pipe"
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetZ": 1,
+		"offsetX": -5,
+		"offsetY": 2,
+		"predicate": {
+			"block": {
+				"tag": "arachneas:laboratory/pipe"
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetY": 2,
+		"predicate": {
+			"block": {
+				"tag": "arachneas:air"
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetX": -5,
+		"offsetY": 2,
+		"predicate": {
+			"block": {
+				"tag": "arachneas:air"
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetX": 1,
+		"offsetY": 3,
+		"predicate": {
+			"block": {
+				"tag": "arachneas:laboratory/pipe"
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetZ": 1,
+		"offsetY": 3,
+		"predicate": {
+			"block": {
+				"tag": "arachneas:laboratory/pipe"
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetX": -1,
+		"offsetZ": 1,
+		"offsetY": 3,
+		"predicate": {
+			"block": {
+				"tag": "arachneas:laboratory/pipe"
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetX": -2,
+		"offsetZ": 1,
+		"offsetY": 3,
+		"predicate": {
+			"block": {
+				"tag": "arachneas:laboratory/pipe"
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetX": -3,
+		"offsetZ": 1,
+		"offsetY": 3,
+		"predicate": {
+			"block": {
+				"tag": "arachneas:laboratory/pipe"
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetX": -4,
+		"offsetZ": 1,
+		"offsetY": 3,
+		"predicate": {
+			"block": {
+				"tag": "arachneas:laboratory/pipe"
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetZ": -1,
+		"offsetY": 3,
+		"predicate": {
+			"block": {
+				"tag": "arachneas:laboratory/pipe"
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetX": -1,
+		"offsetZ": -1,
+		"offsetY": 3,
+		"predicate": {
+			"block": {
+				"tag": "arachneas:laboratory/pipe"
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetX": -2,
+		"offsetZ": -1,
+		"offsetY": 3,
+		"predicate": {
+			"block": {
+				"tag": "arachneas:laboratory/pipe"
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetX": -3,
+		"offsetZ": -1,
+		"offsetY": 3,
+		"predicate": {
+			"block": {
+				"tag": "arachneas:laboratory/pipe"
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetX": -4,
+		"offsetZ": -1,
+		"offsetY": 3,
+		"predicate": {
+			"block": {
+				"tag": "arachneas:laboratory/pipe"
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetX": -5,
+		"offsetZ": -1,
+		"offsetY": 3,
+		"predicate": {
+			"block": {
+				"tag": "arachneas:laboratory/pipe"
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetX": -6,
+		"offsetY": 3,
+		"predicate": {
+			"block": {
+				"tag": "arachneas:laboratory/pipe"
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetY": 3,
+		"predicate": {
+			"block": {
+				"tag": "arachneas:air"
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetX": -1,
+		"offsetY": 3,
+		"predicate": {
+			"block": {
+				"tag": "arachneas:air"
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetX": -2,
+		"offsetY": 3,
+		"predicate": {
+			"block": {
+				"tag": "arachneas:air"
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetX": -3,
+		"offsetY": 3,
+		"predicate": {
+			"block": {
+				"tag": "arachneas:air"
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetX": -4,
+		"offsetY": 3,
+		"predicate": {
+			"block": {
+				"tag": "arachneas:air"
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetX": -5,
+		"offsetY": 3,
+		"predicate": {
+			"block": {
+				"tag": "arachneas:air"
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetY": 4,
+		"predicate": {
+			"block": {
+				"tag": "arachneas:laboratory/pipe"
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetX": -1,
+		"offsetY": 4,
+		"predicate": {
+			"block": {
+				"tag": "arachneas:laboratory/pipe"
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetX": -2,
+		"offsetY": 4,
+		"predicate": {
+			"block": {
+				"tag": "arachneas:laboratory/pipe"
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetX": -3,
+		"offsetY": 4,
+		"predicate": {
+			"block": {
+				"tag": "arachneas:laboratory/pipe"
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetX": -4,
+		"offsetY": 4,
+		"predicate": {
+			"block": {
+				"tag": "arachneas:laboratory/pipe"
+			}
+		}
+	},
+	{
+		"condition": "location_check",
+		"offsetX": -5,
+		"offsetY": 4,
+		"predicate": {
+			"block": {
+				"tag": "arachneas:laboratory/pipe"
+			}
+		}
+	}
+]

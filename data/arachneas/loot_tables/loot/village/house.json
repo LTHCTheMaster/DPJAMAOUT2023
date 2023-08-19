@@ -10,12 +10,12 @@
 				{
 					"type": "loot_table",
 					"name": "arachneas:loot/fixed_loot/day_2",
-					"weight": 1
+					"weight": 3
 				},
 				{
 					"type": "loot_table",
 					"name": "arachneas:loot/fixed_loot/day_3",
-					"weight": 1
+					"weight": 3
 				},
 				{
 					"type": "loot_table",
@@ -29,7 +29,7 @@
 				},
 				{
 					"type": "empty",
-					"weight": 16
+					"weight": 22
 				}
 			]
 		},
