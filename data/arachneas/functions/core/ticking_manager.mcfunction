@@ -15,7 +15,3 @@ execute as @a[tag=arachneas.has_joined,scores={arachneas.used_empty_bottle=1..},
 execute as @e[type=marker,tag=arachneas.portal] at @s run function arachneas:portal/particle
 
 schedule function arachneas:core/ticking_manager 1t
-
-
-#DEBUG
-execute as @a[tag=convention.debug] run title @s actionbar {"score":{"name": "@s","objective": "arachneas.infect_stage"}}
