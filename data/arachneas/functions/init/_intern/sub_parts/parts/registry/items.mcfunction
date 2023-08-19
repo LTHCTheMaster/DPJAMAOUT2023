@@ -71,6 +71,9 @@ data modify storage arachneas:main REGISTRY.Lore.book_study_note_0 set value {Sl
 # Study Note 1
 data modify storage arachneas:main REGISTRY.Lore.book_study_note_1 set value {Slot:16b, id: "minecraft:written_book", Count: 1b, tag: {pages: ['{"text":"--------\\n--------\\n-OX--XO-\\n--------\\n--------\\n\\n> Entit\'Typ\': 1 (hellish)\\n> Language:\\n    hhANHhhanh\\n    kktkkrkktkrs\\n    HhhanHHanhh\\n> Brain: \\"Just Shoot\\""}'], title: "Study note", author: "Team iks", ctc:{id:"study_note",from:"arachneas",traits:{item:1b,book:1b}},arachneas:{note:"blaze"}}}
 
+# Study Note 2
+data modify storage arachneas:main REGISTRY.Lore.book_study_note_2 set value {Slot:16b, id: "minecraft:written_book", Count: 1b, tag: {pages: ['{"text":" ==   ==\\n ==   ==\\n    ==\\n ======\\n ======\\n ==   ==\\n\\n> Entit\'Typ\': 2 (green)\\n> Language:\\n    Tchhhhh\\n    Tchk\\n    Tchhi\\n> Brain: \\"Explode with friends\\""}'], title: "Study note", author: "Team iks", ctc:{id:"study_note",from:"arachneas",traits:{item:1b,book:1b}},arachneas:{note:"creeper"}}}
+
 # Ikssisksa day 11
 data modify storage arachneas:main REGISTRY.Lore.book_day_11_ikssisksa set value {Slot:16b, id: "minecraft:written_book", Count: 1b, tag: {pages: ['{"text":"Day 11:\\n  We decided to bring back a strange trading creature to our laboratory.\\n  This entity seems to have a good genetic to breed really fast with only food, a mate and some beds."}'], title: "Diary", author: "ikssisksa", ctc:{id:"ikssisksa_book",from:"arachneas",traits:{item:1b,book:1b}},arachneas:{day:11}}}
 
