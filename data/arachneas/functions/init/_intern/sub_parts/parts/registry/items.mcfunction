@@ -29,7 +29,7 @@ data modify storage arachneas:main REGISTRY.Items.sterilized_electrolyzed_water_
 data modify storage arachneas:main REGISTRY.Items.carbonated_electrolyzed_infected_water_bottle set value {Slot:16b,id:"minecraft:potion",Count:1b,tag:{Potion:"minecraft:empty",ctc:{id:"carbonated_electrolyzed_infected_water_bottle",from:"arachneas",traits:{liquid:1b,food:1b}},display:{Name:'[{"text":"Carbonated Electrolyzed Infected Water Bottle","italic":false,"color":"#ffffff"}]'},CustomPotionColor:4816295,HideFlags:32,arachneas:{recipe_part:1b},Enchantments:[{}]}}
 
 # Remedy
-data modify storage arachneas:main REGISTRY.Items.remedy set value {Slot:16b,id:"minecraft:potion",Count:1b,tag:{Potion:"minecraft:empty",ctc:{id:"remedy",from:"arachneas",traits:{liquid:1b,food:1b}},display:{Name:'[{"text":"The Arachneas Remedy","italic":false}]'},CustomPotionColor:3991946,HideFlags:32}}
+data modify storage arachneas:main REGISTRY.Items.remedy set value {Slot:16b,id:"minecraft:potion",Count:1b,tag:{Potion:"minecraft:empty",ctc:{id:"remedy",from:"arachneas",traits:{liquid:1b,food:1b}},display:{Name:'[{"text":"The Arachneas Remedy","italic":false}]'},CustomPotionColor:3991946,HideFlags:32,Enchantments:[{}]}}
 
 # Strange Stew
 data modify storage arachneas:main REGISTRY.Items.strange_stew set value {Slot:16b,id:"minecraft:mushroom_stew",Count:1b,tag:{ctc:{id:"strange_stew",from:"arachneas",traits:{item:1b,food:1b}},arachneas:{mushroom_stew:1b,infected_food:1b},display:{Name:'[{"text":"Strange Stew","italic":false,"color":"#ffffff"}]'},Enchantments:[{}]}}
@@ -70,6 +70,9 @@ data modify storage arachneas:main REGISTRY.Lore.book_study_note_0 set value {Sl
 
 # Study Note 1
 data modify storage arachneas:main REGISTRY.Lore.book_study_note_1 set value {Slot:16b, id: "minecraft:written_book", Count: 1b, tag: {pages: ['{"text":"--------\\n--------\\n-OX--XO-\\n--------\\n--------\\n\\n> Entit\'Typ\': 1 (hellish)\\n> Language:\\n    hhANHhhanh\\n    kktkkrkktkrs\\n    HhhanHHanhh\\n> Brain: \\"Just Shoot\\""}'], title: "Study note", author: "Team iks", ctc:{id:"study_note",from:"arachneas",traits:{item:1b,book:1b}},arachneas:{note:"blaze"}}}
+
+# Study Note 2
+data modify storage arachneas:main REGISTRY.Lore.book_study_note_2 set value {Slot:16b, id: "minecraft:written_book", Count: 1b, tag: {pages: ['{"text":" ==   ==\\n ==   ==\\n    ==\\n ======\\n ======\\n ==   ==\\n\\n> Entit\'Typ\': 2 (green)\\n> Language:\\n    Tchhhhh\\n    Tchk\\n    Tchhi\\n> Brain: \\"Explode with friends\\""}'], title: "Study note", author: "Team iks", ctc:{id:"study_note",from:"arachneas",traits:{item:1b,book:1b}},arachneas:{note:"creeper"}}}
 
 # Ikssisksa day 11
 data modify storage arachneas:main REGISTRY.Lore.book_day_11_ikssisksa set value {Slot:16b, id: "minecraft:written_book", Count: 1b, tag: {pages: ['{"text":"Day 11:\\n  We decided to bring back a strange trading creature to our laboratory.\\n  This entity seems to have a good genetic to breed really fast with only food, a mate and some beds."}'], title: "Diary", author: "ikssisksa", ctc:{id:"ikssisksa_book",from:"arachneas",traits:{item:1b,book:1b}},arachneas:{day:11}}}
