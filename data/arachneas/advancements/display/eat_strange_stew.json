@@ -18,6 +18,11 @@
 						"mushroom_stew"
 					],
 					"nbt": "{ctc:{from:\"arachneas\",id:\"strange_stew\"}}"
+				},
+				"player": {
+					"location": {
+						"dimension": "arachneas:arachneas_dimension"
+					}
 				}
 			}
 		}
