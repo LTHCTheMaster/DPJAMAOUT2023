@@ -9,15 +9,14 @@ scoreboard objectives remove arachneas.infect_internal_bar
 scoreboard objectives remove arachneas.infect_stage
 scoreboard objectives remove arachneas.portal_timer
 scoreboard objectives remove arachneas.used_empty_bottle
+scoreboard objectives remove arachneas.death
 
 #remove storage
-data merge storage arachneas:main {}
-data merge storage arachneas:portals {}
-data merge storage arachneas:temp {}
+data remove storage arachneas:main CompassRegistry
+data remove storage arachneas:main REGISTRY
 
 #kill all entity from the pack
 kill @e[tag=arachneas.is_second_ticked]
 
 #datapack disable
-datapack disable "files/DPJAMAOUT2023"
-datapack disable "files/DPJAMAOUT2023.zip"
+
