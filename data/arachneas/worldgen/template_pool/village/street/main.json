@@ -1,5 +1,5 @@
 {
-    "fallback": "arachneas:village/street/term",
+    "fallback": "arachneas:village/term",
     "elements": [
         {
             "weight": 1,

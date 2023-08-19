@@ -1,8 +1,8 @@
 {
-    "fallback": "arachneas:village/street/term",
+    "fallback": "arachneas:village/term",
     "elements": [
         {
-            "weight": 1,
+            "weight": 5,
             "element": {
                 "element_type": "single_pool_element",
                 "projection": "rigid",
@@ -11,7 +11,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 3,
             "element": {
                 "element_type": "empty_pool_element"
             }

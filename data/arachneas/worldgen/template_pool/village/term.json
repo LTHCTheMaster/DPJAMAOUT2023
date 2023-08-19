@@ -6,7 +6,7 @@
             "element": {
                 "element_type": "single_pool_element",
                 "projection": "rigid",
-                "location": "arachneas:village/street/term/term_0",
+                "location": "arachneas:village/term/term_0",
                 "processors": "arachneas:village/main"
             }
         },
@@ -15,7 +15,7 @@
             "element": {
                 "element_type": "single_pool_element",
                 "projection": "rigid",
-                "location": "arachneas:village/street/term/term_1",
+                "location": "arachneas:village/term/term_1",
                 "processors": "arachneas:village/main"
             }
         },
@@ -24,7 +24,7 @@
             "element": {
                 "element_type": "single_pool_element",
                 "projection": "rigid",
-                "location": "arachneas:village/street/term/term_2",
+                "location": "arachneas:village/term/term_2",
                 "processors": "arachneas:village/main"
             }
         },
@@ -33,7 +33,7 @@
             "element": {
                 "element_type": "single_pool_element",
                 "projection": "rigid",
-                "location": "arachneas:village/street/term/term_3",
+                "location": "arachneas:village/term/term_3",
                 "processors": "arachneas:village/main"
             }
         },
@@ -42,7 +42,7 @@
             "element": {
                 "element_type": "single_pool_element",
                 "projection": "rigid",
-                "location": "arachneas:village/street/term/term_4",
+                "location": "arachneas:village/term/term_4",
                 "processors": "arachneas:village/main"
             }
         },
@@ -51,7 +51,7 @@
             "element": {
                 "element_type": "single_pool_element",
                 "projection": "rigid",
-                "location": "arachneas:village/street/term/term_5",
+                "location": "arachneas:village/term/term_5",
                 "processors": "arachneas:village/main"
             }
         },
@@ -60,7 +60,7 @@
             "element": {
                 "element_type": "single_pool_element",
                 "projection": "rigid",
-                "location": "arachneas:village/street/term/term_6",
+                "location": "arachneas:village/term/term_6",
                 "processors": "arachneas:village/main"
             }
         },
@@ -69,7 +69,7 @@
             "element": {
                 "element_type": "single_pool_element",
                 "projection": "rigid",
-                "location": "arachneas:village/street/term/term_7",
+                "location": "arachneas:village/term/term_7",
                 "processors": "arachneas:village/main"
             }
         },
@@ -78,7 +78,7 @@
             "element": {
                 "element_type": "single_pool_element",
                 "projection": "rigid",
-                "location": "arachneas:village/street/term/term_8",
+                "location": "arachneas:village/term/term_8",
                 "processors": "arachneas:village/main"
             }
         },
@@ -87,7 +87,7 @@
             "element": {
                 "element_type": "single_pool_element",
                 "projection": "rigid",
-                "location": "arachneas:village/street/term/term_9",
+                "location": "arachneas:village/term/term_9",
                 "processors": "arachneas:village/main"
             }
         },
@@ -96,7 +96,7 @@
             "element": {
                 "element_type": "single_pool_element",
                 "projection": "rigid",
-                "location": "arachneas:village/street/term/term_10",
+                "location": "arachneas:village/term/term_10",
                 "processors": "arachneas:village/main"
             }
         },
@@ -105,7 +105,7 @@
             "element": {
                 "element_type": "single_pool_element",
                 "projection": "rigid",
-                "location": "arachneas:village/street/term/term_11",
+                "location": "arachneas:village/term/term_11",
                 "processors": "arachneas:village/main"
             }
         }
