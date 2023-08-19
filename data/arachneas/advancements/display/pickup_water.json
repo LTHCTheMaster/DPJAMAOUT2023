@@ -8,7 +8,7 @@
         "description": "This water is anormaly murky",
         "hidden": true
     },
-    "parent": "arachneas:display/root",
+    "parent": "arachneas:display/infected_swim",
     "criteria": {
         "requirement": {
             "trigger": "minecraft:impossible"

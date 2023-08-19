@@ -2,7 +2,7 @@
     "fallback": "empty",
     "elements": [
         {
-            "weight": 2,
+            "weight": 16,
             "element": {
                 "element_type": "single_pool_element",
                 "projection": "rigid",
@@ -11,7 +11,7 @@
             }
         },
         {
-            "weight": 2,
+            "weight": 16,
             "element": {
                 "element_type": "single_pool_element",
                 "projection": "rigid",
@@ -20,7 +20,7 @@
             }
         },
         {
-            "weight": 2,
+            "weight": 16,
             "element": {
                 "element_type": "single_pool_element",
                 "projection": "rigid",
@@ -29,7 +29,7 @@
             }
         },
         {
-            "weight": 2,
+            "weight": 16,
             "element": {
                 "element_type": "single_pool_element",
                 "projection": "rigid",
@@ -38,7 +38,7 @@
             }
         },
         {
-            "weight": 2,
+            "weight": 16,
             "element": {
                 "element_type": "single_pool_element",
                 "projection": "rigid",
@@ -46,15 +46,21 @@
                 "processors": "arachneas:village/main"
             }
         },
-
-
-
+        {
+            "weight": 8,
+            "element": {
+                "element_type": "single_pool_element",
+                "projection": "rigid",
+                "location": "arachneas:village/house/field",
+                "processors": "arachneas:village/main"
+            }
+        },
         {
             "weight": 1,
             "element": {
                 "element_type": "single_pool_element",
                 "projection": "rigid",
-                "location": "arachneas:village/house/field",
+                "location": "arachneas:village/house/great_straight_son",
                 "processors": "arachneas:village/main"
             }
         }
