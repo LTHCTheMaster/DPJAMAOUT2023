@@ -1,0 +1,46 @@
+{
+	"type": "random_patch",
+	"config": {
+		"tries": 96,
+		"xz_spread": 7,
+		"y_spread": 3,
+		"feature": {
+			"feature": {
+				"type": "simple_block",
+				"config": {
+					"to_place": {
+						"type": "simple_state_provider",
+						"state": {
+							"Name": "wither_rose"
+						}
+					}
+				}
+			},
+			"placement": [
+				{
+					"type": "block_predicate_filter",
+					"predicate": {
+						"type": "all_of",
+						"predicates": [
+							{
+								"type": "matching_blocks",
+								"blocks": "air"
+							},
+							{
+								"type": "matching_blocks",
+								"offset": [
+									0,
+									-1,
+									0
+								],
+								"blocks": [
+									"soul_soil"
+								]
+							}
+						]
+					}
+				}
+			]
+		}
+	}
+}

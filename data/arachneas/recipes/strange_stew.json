@@ -1,0 +1,17 @@
+{
+	"type": "crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "bowl"
+		},
+		{
+			"item": "brown_mushroom"
+		},
+		{
+			"item": "crimson_fungus"
+		}
+	],
+	"result": {
+		"item": "knowledge_book"
+	}
+}

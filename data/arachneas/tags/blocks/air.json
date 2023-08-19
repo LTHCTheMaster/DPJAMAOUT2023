@@ -1,0 +1,9 @@
+{
+	"values": [
+		"light",
+		"air",
+		"cave_air",
+		"void_air",
+		"structure_void"
+	]
+}

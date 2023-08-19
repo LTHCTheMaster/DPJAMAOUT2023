@@ -1,0 +1,68 @@
+{
+    "fallback": "empty",
+    "elements": [
+        {
+            "weight": 16,
+            "element": {
+                "element_type": "single_pool_element",
+                "projection": "rigid",
+                "location": "arachneas:village/house/corner",
+                "processors": "arachneas:village/main"
+            }
+        },
+        {
+            "weight": 16,
+            "element": {
+                "element_type": "single_pool_element",
+                "projection": "rigid",
+                "location": "arachneas:village/house/great_diag",
+                "processors": "arachneas:village/main"
+            }
+        },
+        {
+            "weight": 16,
+            "element": {
+                "element_type": "single_pool_element",
+                "projection": "rigid",
+                "location": "arachneas:village/house/great_straight",
+                "processors": "arachneas:village/main"
+            }
+        },
+        {
+            "weight": 16,
+            "element": {
+                "element_type": "single_pool_element",
+                "projection": "rigid",
+                "location": "arachneas:village/house/line",
+                "processors": "arachneas:village/main"
+            }
+        },
+        {
+            "weight": 16,
+            "element": {
+                "element_type": "single_pool_element",
+                "projection": "rigid",
+                "location": "arachneas:village/house/small",
+                "processors": "arachneas:village/main"
+            }
+        },
+        {
+            "weight": 8,
+            "element": {
+                "element_type": "single_pool_element",
+                "projection": "rigid",
+                "location": "arachneas:village/house/field",
+                "processors": "arachneas:village/main"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "projection": "rigid",
+                "location": "arachneas:village/house/great_straight_son",
+                "processors": "arachneas:village/main"
+            }
+        }
+    ]
+}

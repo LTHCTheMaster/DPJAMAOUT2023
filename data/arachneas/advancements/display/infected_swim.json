@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:water_bucket"
+        },
+        "title": "Huhh..",
+        "description": "I feel strange. Maybe I can collect this water",
+        "hidden": true
+    },
+    "parent": "arachneas:display/root",
+    "criteria": {
+        "requirement": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "block": {
+                            "blocks": [
+                                "water"
+                            ]
+                        },
+                        "dimension": "arachneas:arachneas_dimension"
+                    }
+                }
+            }
+        }
+    }
+}

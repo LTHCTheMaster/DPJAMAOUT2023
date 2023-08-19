@@ -1,0 +1,42 @@
+{
+  "type": "arachneas:arachneas_dimension_type",
+    "generator": {
+        "type": "minecraft:noise",
+        "settings": "arachneas:arachneas_dimension_settings",
+        "biome_source": {
+            "type": "minecraft:multi_noise",
+            "biomes": [
+                {
+                    "biome": "arachneas:deadly_desert",
+                    "parameters": {
+                        "temperature": [
+                            0,
+                            1
+                        ],
+                        "humidity": 0,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": 0,
+                        "depth": 0,
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "arachneas:deadly_plains",
+                    "parameters": {
+                        "temperature": [
+                            -1,
+                            0
+                        ],
+                        "humidity": 0,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": 0,
+                        "depth": 0,
+                        "offset": 0
+                    }
+                }
+            ]
+        }
+    }
+}

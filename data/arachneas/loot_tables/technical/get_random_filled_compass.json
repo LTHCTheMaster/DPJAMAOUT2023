@@ -1,0 +1,106 @@
+{
+	"type": "generic",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "loot_table",
+					"name": "arachneas:technical/compass/filled_compass_0"
+				},
+				{
+					"type": "loot_table",
+					"name": "arachneas:technical/compass/filled_compass_1"
+				},
+				{
+					"type": "loot_table",
+					"name": "arachneas:technical/compass/filled_compass_2"
+				},
+				{
+					"type": "loot_table",
+					"name": "arachneas:technical/compass/filled_compass_3"
+				},
+				{
+					"type": "loot_table",
+					"name": "arachneas:technical/compass/filled_compass_4"
+				},
+				{
+					"type": "loot_table",
+					"name": "arachneas:technical/compass/filled_compass_5"
+				},
+				{
+					"type": "loot_table",
+					"name": "arachneas:technical/compass/filled_compass_6"
+				},
+				{
+					"type": "loot_table",
+					"name": "arachneas:technical/compass/filled_compass_7"
+				},
+				{
+					"type": "loot_table",
+					"name": "arachneas:technical/compass/filled_compass_8"
+				},
+				{
+					"type": "loot_table",
+					"name": "arachneas:technical/compass/filled_compass_9"
+				},
+				{
+					"type": "loot_table",
+					"name": "arachneas:technical/compass/filled_compass_10"
+				},
+				{
+					"type": "loot_table",
+					"name": "arachneas:technical/compass/filled_compass_11"
+				},
+				{
+					"type": "loot_table",
+					"name": "arachneas:technical/compass/filled_compass_12"
+				},
+				{
+					"type": "loot_table",
+					"name": "arachneas:technical/compass/filled_compass_13"
+				},
+				{
+					"type": "loot_table",
+					"name": "arachneas:technical/compass/filled_compass_14"
+				},
+				{
+					"type": "loot_table",
+					"name": "arachneas:technical/compass/filled_compass_15"
+				},
+				{
+					"type": "loot_table",
+					"name": "arachneas:technical/compass/filled_compass_16"
+				},
+				{
+					"type": "loot_table",
+					"name": "arachneas:technical/compass/filled_compass_17"
+				},
+				{
+					"type": "loot_table",
+					"name": "arachneas:technical/compass/filled_compass_18"
+				},
+				{
+					"type": "loot_table",
+					"name": "arachneas:technical/compass/filled_compass_19"
+				},
+				{
+					"type": "loot_table",
+					"name": "arachneas:technical/compass/filled_compass_20"
+				},
+				{
+					"type": "loot_table",
+					"name": "arachneas:technical/compass/filled_compass_21"
+				},
+				{
+					"type": "loot_table",
+					"name": "arachneas:technical/compass/filled_compass_22"
+				},
+				{
+					"type": "loot_table",
+					"name": "arachneas:technical/compass/filled_compass_23"
+				}
+			]
+		}
+	]
+}

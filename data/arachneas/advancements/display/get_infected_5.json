@@ -1,0 +1,17 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:wither_skeleton_skull"
+      },
+      "title": "You get infected!",
+      "description": "Say a prayer...",
+      "hidden": true
+    },
+    "parent": "arachneas:display/get_infected_4",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

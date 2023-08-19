@@ -1,0 +1,82 @@
+[
+	{
+		"condition": "reference",
+		"name": "arachneas:location/in_arachneas_dimension"
+	},
+	{
+		"condition": "reference",
+		"name": "arachneas:check/check_gamemode"
+	},
+	{
+		"condition": "any_of",
+		"terms": [
+			{
+				"condition": "all_of",
+				"terms": [
+					{
+						"condition": "any_of",
+						"terms": [
+							{
+								"condition": "location_check",
+								"offsetY": 1,
+								"predicate": {
+									"block": {
+										"blocks": [
+											"water"
+										]
+									}
+								}
+							},
+							{
+								"condition": "location_check",
+								"predicate": {
+									"block": {
+										"blocks": [
+											"water"
+										]
+									}
+								}
+							}
+						]
+					},
+					{
+						"condition": "random_chance",
+						"chance": 0.0625
+					}
+				]
+			},
+			{
+				"condition": "all_of",
+				"terms": [
+					{
+						"condition": "any_of",
+						"terms": [
+							{
+								"condition": "entity_properties",
+								"predicate": {
+									"vehicle": {
+										"type": "boat"
+									}
+								},
+								"entity": "this"
+							},
+							{
+								"condition": "entity_properties",
+								"predicate": {
+									"vehicle": {
+										"type": "chest_boat"
+									}
+								},
+								"entity": "this"
+							}
+						]
+					},
+					{
+						"condition": "random_chance",
+						"chance": 0.0625
+					}
+				]
+			}
+		]
+	}
+]

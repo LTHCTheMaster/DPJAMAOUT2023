@@ -1,0 +1,53 @@
+{
+	"type": "random_patch",
+	"config": {
+		"tries": 69,
+		"xz_spread": 4,
+		"y_spread": 3,
+		"feature": {
+			"feature": {
+				"type": "simple_block",
+				"config": {
+					"to_place": {
+						"type": "weighted_state_provider",
+						"entries": [
+							{
+								"weight": 3,
+								"data": {
+									"Name": "brown_mushroom"
+								}
+							},
+							{
+								"weight": 2,
+								"data": {
+									"Name": "crimson_fungus"
+								}
+							}
+						]
+					}
+				}
+			},
+			"placement": [
+				{
+					"type": "block_predicate_filter",
+					"predicate": {
+						"type": "all_of",
+						"predicates": [
+							{
+								"type": "matching_blocks",
+								"blocks": "air"
+							},
+							{
+								"type": "matching_blocks",
+								"offset": [0, -1, 0],
+								"blocks": [
+									"mycelium"
+								]
+							}
+						]
+					}
+				}
+			]
+		}
+	}
+}

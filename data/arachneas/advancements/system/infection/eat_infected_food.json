@@ -1,0 +1,25 @@
+{
+	"criteria": {
+		"eat_infected_food": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"potion",
+						"mushroom_stew"
+					],
+					"nbt": "{arachneas:{infected_food:1b}}"
+				},
+				"player": [
+					{
+						"condition": "reference",
+						"name": "arachneas:check/check_gamemode"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "arachneas:illness/eat_infected_food"
+	}
+}
