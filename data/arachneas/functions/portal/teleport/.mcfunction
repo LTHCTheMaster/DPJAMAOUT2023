@@ -1,6 +1,7 @@
 ## function arachneas:core/tick_machine/second_1
 
 tag @s add arachneas.travel_dim
+execute if entity @e[type=marker,distance=..4,tag=arachneas.has_equivalent] run tag @s add arachneas.has_equivalent
 execute store result score #success arachneas.data if dimension arachneas:arachneas_dimension
 execute if score #success arachneas.data matches 0 in arachneas:arachneas_dimension run tp ~ ~ ~
 execute if score #success arachneas.data matches 1 in overworld run tp ~ ~ ~
