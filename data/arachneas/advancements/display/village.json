@@ -25,5 +25,8 @@
 				]
 			}
 		}
+	},
+	"rewards": {
+		"function": "arachneas:init/_intern/sub_parts/generate_compass/call"
 	}
 }
