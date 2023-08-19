@@ -1,2 +1,0 @@
-execute if entity @s[tag=!arachneas.infected] if score @s arachneas.infect_internal_bar matches 10.. run function arachneas:illness/manage_infection/get_infected
-execute if entity @s[tag=arachneas.infected] run function arachneas:illness/manage_infection/infection_increase
