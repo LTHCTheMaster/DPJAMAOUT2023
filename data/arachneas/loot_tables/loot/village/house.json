@@ -82,6 +82,20 @@
 						}
 					],
 					"weight": 1
+				},
+				{
+				  "type": "minecraft:loot_table",
+				  "weight": 2,
+				  "name": "arachneas:i/strange_stew",
+				  "functions": [
+					{
+					  "function": "minecraft:set_count",
+					  "count": {
+						"min": 1,
+						"max": 3
+					  }
+					}
+				  ]
 				}
 			]
 		}
