@@ -14,4 +14,7 @@ execute if data storage arachneas:main Laboratory.Items[{tag:{ctc:{from:"arachne
 execute if data storage arachneas:main Laboratory.Items[{tag:{ctc:{from:"arachneas",id:"carbonated_sterilized_water_bottle"}},Slot:1b}] run data modify storage arachneas:main Laboratory.Items[{Slot:1b}].tag set from storage arachneas:main REGISTRY.Items.remedy.tag
 execute if data storage arachneas:main Laboratory.Items[{tag:{ctc:{from:"arachneas",id:"carbonated_sterilized_water_bottle"}},Slot:2b}] run data modify storage arachneas:main Laboratory.Items[{Slot:2b}].tag set from storage arachneas:main REGISTRY.Items.remedy.tag
 
+summon lightning_bolt ~ ~2 ~
+particle crit ~ ~2.1 ~ 0 0 0 0.32 10
+
 data modify block ~ ~ ~ Items set from storage arachneas:main Laboratory.Items
