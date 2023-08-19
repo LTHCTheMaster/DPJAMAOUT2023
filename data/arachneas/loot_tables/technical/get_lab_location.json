@@ -9,9 +9,17 @@
 			  {
 				"destination": "arachneas:lab",
 				"function": "minecraft:exploration_map",
-				"decoration": "target_point",
+				"decoration": "red_x",
 				"zoom": 1,
 				"skip_existing_chunks": false
+			  },
+			  {
+				"function": "set_name",
+				"name": "burried place"
+			  },
+			  {
+				"function": "set_nbt",
+				"tag": "{ctc:{from:\"arachneas\",id:\"laboratory_map\"}}"
 			  }
 			],
 			"name": "minecraft:map"

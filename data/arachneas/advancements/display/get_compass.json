@@ -18,7 +18,7 @@
 						"items": [
 							"compass"
 						],
-						"nbt": "{ctc:{from:\"arachneas\",id:\"laboratory_compass\"}}"
+						"nbt": "{ctc:{from:\"arachneas\",id:\"laboratory_map\"}}"
 					}
 				]
 			}

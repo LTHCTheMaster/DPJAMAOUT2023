@@ -29,7 +29,7 @@ data modify storage arachneas:main REGISTRY.Items.sterilized_electrolyzed_water_
 data modify storage arachneas:main REGISTRY.Items.carbonated_electrolyzed_infected_water_bottle set value {Slot:16b,id:"minecraft:potion",Count:1b,tag:{Potion:"minecraft:empty",ctc:{id:"carbonated_electrolyzed_infected_water_bottle",from:"arachneas",traits:{liquid:1b,food:1b}},display:{Name:'[{"text":"Carbonated Electrolyzed Infected Water Bottle","italic":false,"color":"#ffffff"}]'},CustomPotionColor:4816295,HideFlags:32,arachneas:{recipe_part:1b},Enchantments:[{}]}}
 
 # Remedy
-data modify storage arachneas:main REGISTRY.Items.remedy set value {Slot:16b,id:"minecraft:potion",Count:1b,tag:{Potion:"minecraft:empty",ctc:{id:"remedy",from:"arachneas",traits:{liquid:1b,food:1b}},display:{Name:'[{"text":"The Arachneas Remedy","italic":false}]'},CustomPotionColor:3991946,HideFlags:32}}
+data modify storage arachneas:main REGISTRY.Items.remedy set value {Slot:16b,id:"minecraft:potion",Count:1b,tag:{Potion:"minecraft:empty",ctc:{id:"remedy",from:"arachneas",traits:{liquid:1b,food:1b}},display:{Name:'[{"text":"The Arachneas Remedy","italic":false}]'},CustomPotionColor:3991946,HideFlags:32,Enchantments:[{}]}}
 
 # Strange Stew
 data modify storage arachneas:main REGISTRY.Items.strange_stew set value {Slot:16b,id:"minecraft:mushroom_stew",Count:1b,tag:{ctc:{id:"strange_stew",from:"arachneas",traits:{item:1b,food:1b}},arachneas:{mushroom_stew:1b,infected_food:1b},display:{Name:'[{"text":"Strange Stew","italic":false,"color":"#ffffff"}]'},Enchantments:[{}]}}

@@ -1,0 +1,24 @@
+{
+	"criteria": {
+		"eat_infected_food": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"potion"
+					],
+					"nbt": "{ctc:{id:\"remedy\",from:\"arachneas\"}}"
+				},
+				"player": [
+					{
+						"condition": "reference",
+						"name": "arachneas:check/check_gamemode"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "arachneas:remedy/remedy_working"
+	}
+}
