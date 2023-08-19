@@ -1,8 +1,8 @@
 {
     "display": {
         "icon": {
-            "item": "mushroom_stem",
-            "nbt": "{CustomModelData: 8971000}"
+            "item": "mushroom_stew",
+            "nbt": "{Enchantments:[{}]}"
         },
         "title": "Local Speciality",
         "description": "I don't think that is secured, but it's nourishing.",
@@ -17,7 +17,7 @@
 					"items": [
 						"mushroom_stew"
 					],
-					"nbt": "{arachneas:{strange_stew:1b}}"
+					"nbt": "{ctc:{from:\"arachneas\",id:\"strange_stew\"}}"
 				}
 			}
 		}

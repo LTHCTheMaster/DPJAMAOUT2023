@@ -1,17 +1,38 @@
 # Infected Water
-data modify storage arachneas:main REGISTRY.Items.infected_water_bottle set value {Slot:16b,id:"minecraft:potion",Count:1b,tag:{Potion:"minecraft:water",ctc:{id:"infected_water_bottle",from:"arachneas",traits:{liquid:1b,food:1b}},arachneas:{infected_water:1b,infected_food:1b},display:{Name:'[{"text":"Infected Water Bottle","italic":false,"color":"#ffffff"}]'},CustomPotionColor:1002844,HideFlags:32}}
+data modify storage arachneas:main REGISTRY.Items.infected_water_bottle set value {Slot:16b,id:"minecraft:potion",Count:1b,tag:{Potion:"minecraft:water",ctc:{id:"infected_water_bottle",from:"arachneas",traits:{liquid:1b,food:1b}},arachneas:{infected_water:1b,infected_food:1b,recipe_part:1b},display:{Name:'[{"text":"Infected Water Bottle","italic":false,"color":"#ffffff"}]'},CustomPotionColor:1002844,HideFlags:32}}
 
-# Sterilized Infected Water
-data modify storage arachneas:main REGISTRY.Items.sterilized_infected_water_bottle set value {Slot:16b,id:"minecraft:potion",Count:1b,tag:{Potion:"minecraft:empty",ctc:{id:"sterilized_infected_water_bottle",from:"arachneas",traits:{liquid:1b,food:1b}},display:{Name:'[{"text":"Sterilized Infected Water Bottle","italic":false,"color":"#ffffff"}]'},CustomPotionColor:2139076,HideFlags:32}}
+# Sterilized Water
+data modify storage arachneas:main REGISTRY.Items.sterilized_water_bottle set value {Slot:16b,id:"minecraft:potion",Count:1b,tag:{Potion:"minecraft:empty",ctc:{id:"sterilized_water_bottle",from:"arachneas",traits:{liquid:1b,food:1b}},display:{Name:'[{"text":"Sterilized Water Bottle","italic":false,"color":"#ffffff"}]'},CustomPotionColor:2139076,HideFlags:32,arachneas:{recipe_part:1b}}}
 
 # Carbonated Infected Water
-data modify storage arachneas:main REGISTRY.Items.carbonated_infected_water_bottle set value {Slot:16b,id:"minecraft:potion",Count:1b,tag:{Potion:"minecraft:empty",ctc:{id:"carbonated_infected_water_bottle",from:"arachneas",traits:{liquid:1b,food:1b}},display:{Name:'[{"text":"Carbonated Infected Water Bottle","italic":false,"color":"#ffffff"}]'},CustomPotionColor:16777088,HideFlags:32}}
+data modify storage arachneas:main REGISTRY.Items.carbonated_infected_water_bottle set value {Slot:16b,id:"minecraft:potion",Count:1b,tag:{Potion:"minecraft:empty",ctc:{id:"carbonated_infected_water_bottle",from:"arachneas",traits:{liquid:1b,food:1b}},display:{Name:'[{"text":"Carbonated Infected Water Bottle","italic":false,"color":"#ffffff"}]'},CustomPotionColor:4816295,HideFlags:32,arachneas:{recipe_part:1b}}}
 
 # Electrolyzed Infected Water
-data modify storage arachneas:main REGISTRY.Items.electrolyzed_infected_water_bottle set value {Slot:16b,id:"minecraft:potion",Count:1b,tag:{Potion:"minecraft:empty",ctc:{id:"electrolyzed_infected_water_bottle",from:"arachneas",traits:{liquid:1b,food:1b}},display:{Name:'[{"text":"Electrolyzed Infected Water Bottle","italic":false,"color":"#ffffff"}]'},CustomPotionColor:16777215,HideFlags:32}}
+data modify storage arachneas:main REGISTRY.Items.electrolyzed_infected_water_bottle set value {Slot:16b,id:"minecraft:potion",Count:1b,tag:{Potion:"minecraft:empty",ctc:{id:"electrolyzed_infected_water_bottle",from:"arachneas",traits:{liquid:1b,food:1b}},display:{Name:'[{"text":"Electrolyzed Infected Water Bottle","italic":false,"color":"#ffffff"}]'},CustomPotionColor:11786229,HideFlags:32,arachneas:{recipe_part:1b}}}
+
+# Carbonated Sterilized Water
+data modify storage arachneas:main REGISTRY.Items.carbonated_sterilized_water_bottle set value {Slot:16b,id:"minecraft:potion",Count:1b,tag:{Potion:"minecraft:empty",ctc:{id:"carbonated_sterilized_water_bottle",from:"arachneas",traits:{liquid:1b,food:1b}},display:{Name:'[{"text":"Carbonated Sterilized Water Bottle","italic":false,"color":"#ffffff"}]'},CustomPotionColor:4816295,HideFlags:32,arachneas:{recipe_part:1b},Enchantments:[{}]}}
+
+# Electrolyzed Sterilized Water
+data modify storage arachneas:main REGISTRY.Items.electrolyzed_sterilized_water_bottle set value {Slot:16b,id:"minecraft:potion",Count:1b,tag:{Potion:"minecraft:empty",ctc:{id:"electrolyzed_sterilized_water_bottle",from:"arachneas",traits:{liquid:1b,food:1b}},display:{Name:'[{"text":"Electrolyzed Sterilized Water Bottle","italic":false,"color":"#ffffff"}]'},CustomPotionColor:11786229,HideFlags:32,arachneas:{recipe_part:1b},Enchantments:[{}]}}
+
+# Sterilized Carbonated Water
+data modify storage arachneas:main REGISTRY.Items.sterilized_carbonated_water_bottle set value {Slot:16b,id:"minecraft:potion",Count:1b,tag:{Potion:"minecraft:empty",ctc:{id:"sterilized_carbonated_water_bottle",from:"arachneas",traits:{liquid:1b,food:1b}},display:{Name:'[{"text":"Sterilized Carbonated Water Bottle","italic":false,"color":"#ffffff"}]'},CustomPotionColor:2139076,HideFlags:32,arachneas:{recipe_part:1b},Enchantments:[{}]}}
+
+# Electrolyzed Carbonated Infected Water
+data modify storage arachneas:main REGISTRY.Items.electrolyzed_carbonated_infected_water_bottle set value {Slot:16b,id:"minecraft:potion",Count:1b,tag:{Potion:"minecraft:empty",ctc:{id:"electrolyzed_carbonated_infected_water_bottle",from:"arachneas",traits:{liquid:1b,food:1b}},display:{Name:'[{"text":"Electrolyzed Carbonated Infected Water Bottle","italic":false,"color":"#ffffff"}]'},CustomPotionColor:11786229,HideFlags:32,arachneas:{recipe_part:1b},Enchantments:[{}]}}
+
+# Sterilized Electrolyzed Water
+data modify storage arachneas:main REGISTRY.Items.sterilized_electrolyzed_water_bottle set value {Slot:16b,id:"minecraft:potion",Count:1b,tag:{Potion:"minecraft:empty",ctc:{id:"sterilized_electrolyzed_water_bottle",from:"arachneas",traits:{liquid:1b,food:1b}},display:{Name:'[{"text":"Sterilized Electrolyzed Water Bottle","italic":false,"color":"#ffffff"}]'},CustomPotionColor:2139076,HideFlags:32,arachneas:{recipe_part:1b},Enchantments:[{}]}}
+
+# Carbonated Electrolyzed Infected Water
+data modify storage arachneas:main REGISTRY.Items.carbonated_electrolyzed_infected_water_bottle set value {Slot:16b,id:"minecraft:potion",Count:1b,tag:{Potion:"minecraft:empty",ctc:{id:"carbonated_electrolyzed_infected_water_bottle",from:"arachneas",traits:{liquid:1b,food:1b}},display:{Name:'[{"text":"Carbonated Electrolyzed Infected Water Bottle","italic":false,"color":"#ffffff"}]'},CustomPotionColor:4816295,HideFlags:32,arachneas:{recipe_part:1b},Enchantments:[{}]}}
+
+# Remedy
+data modify storage arachneas:main REGISTRY.Items.remedy set value {Slot:16b,id:"minecraft:potion",Count:1b,tag:{Potion:"minecraft:empty",ctc:{id:"remedy",from:"arachneas",traits:{liquid:1b,food:1b}},display:{Name:'[{"text":"The Arachneas Remedy","italic":false}]'},CustomPotionColor:3991946,HideFlags:32}}
 
 # Strange Stew
-data modify storage arachneas:main REGISTRY.Items.strange_stew set value {Slot:16b,id:"minecraft:mushroom_stew",Count:1b,tag:{ctc:{id:"strange_stew",from:"arachneas",traits:{item:1b,food:1b}},arachneas:{mushroom_stew:1b,infected_food:1b},display:{Name:'[{"text":"Strange Stew","italic":false,"color":"#ffffff"}]'},CustomModelData:8971000}}
+data modify storage arachneas:main REGISTRY.Items.strange_stew set value {Slot:16b,id:"minecraft:mushroom_stew",Count:1b,tag:{ctc:{id:"strange_stew",from:"arachneas",traits:{item:1b,food:1b}},arachneas:{mushroom_stew:1b,infected_food:1b},display:{Name:'[{"text":"Strange Stew","italic":false,"color":"#ffffff"}]'},Enchantments:[{}]}}
 
 # Unfilled Laboratory Compass (and filled compass registry)
 data modify storage arachneas:main REGISTRY.Items.unfilled_laboratory_compass set value {Slot:16b,id:"minecraft:compass",Count:1b,tag:{ctc:{id:"laboratory_compass",from:"arachneas",traits:{item:1b,tool:1b}},arachneas:{filled:0b},display:{Name:'[{"text":"Unfilled Laboratory Compass","italic":false,"color":"#ffffff"}]'}}}

@@ -2,13 +2,13 @@
     "display": {
         "icon": {
             "item": "minecraft:potion",
-            "nbt": "{CustomPotionColor: 2139076}"
+            "nbt": "{CustomPotionColor: 11786229}"
         },
-        "title": "Sterilisation",
-        "description": "You understood the Arachneas' knowledge",
+        "title": "Electrolyze",
+        "description": "The Arachneas known the electricity!",
         "hidden": true
     },
-    "parent": "arachneas:display/pickup_water",
+    "parent": "arachneas:display/carbonating",
     "criteria": {
 		"requirement": {
 			"trigger": "minecraft:inventory_changed",
@@ -18,7 +18,7 @@
 						"items": [
 							"potion"
 						],
-						"nbt": "{ctc:{from:\"arachneas\",id:\"sterilized_infected_water_bottle\"}}"
+						"nbt": "{ctc:{from:\"arachneas\",id:\"electrolyzed_infected_water_bottle\"}}"
 					}
 				]
 			}

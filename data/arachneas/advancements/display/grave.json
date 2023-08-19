@@ -1,13 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:deepslate_bricks"
+			"item": "minecraft:cherry_wood"
 		},
-		"title": "What were they doing?",
-		"description": "Really strange expriences...",
-		"hidden": true
+		"title": "Who is resting here?",
+		"description": "Is it the \"Father\"?...",
+		"hidden": true,
+		"frame": "goal"
 	},
-	"parent": "arachneas:display/get_compass",
+	"parent": "arachneas:display/old_story_of_a_son_and_his_father",
 	"criteria": {
 		"requirement": {
 			"trigger": "minecraft:location",
@@ -18,7 +19,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"structure": "arachneas:laboratory"
+								"structure": "arachneas:grave"
 							}
 						}
 					}
