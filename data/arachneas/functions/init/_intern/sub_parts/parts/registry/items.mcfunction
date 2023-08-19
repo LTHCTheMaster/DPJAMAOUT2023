@@ -79,6 +79,3 @@ data modify storage arachneas:main REGISTRY.Lore.book_day_11_father set value {S
 
 # Father's Gift
 data modify storage arachneas:main REGISTRY.Lore.father_gift set value {Slot:16, id:"minecraft:diamond", Count:1b, tag:{ctc:{id:"father_gift", from:"arachneas", traits:{item: 1b,"gem/diamond":1b}},display:{Name:'{"text":"Gem of the enlighten","color":"#FAFFD9","bold":true,"italic":false}'},Enchantments:[{id:"minecraft:sharpness",lvl:1s},{id:"minecraft:smite",lvl:1s},{id:"minecraft:bane_of_arthropods",lvl:1s},{id:"minecraft:knockback",lvl:1s},{id:"minecraft:looting",lvl:1s},{id:"minecraft:sweeping",lvl:1s},{id:"minecraft:silk_touch",lvl:1s},{id:"minecraft:fortune",lvl:1s},{id:"minecraft:infinity",lvl:1s},{id:"minecraft:luck_of_the_sea",lvl:1s},{id:"minecraft:loyalty",lvl:1s},{id:"minecraft:mending",lvl:1s}]}}
-
-# Force compass loading
-function arachneas:init/_intern/sub_parts/generate_compass/start
