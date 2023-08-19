@@ -20,6 +20,15 @@
       ]
     },
     {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "arachneas:i/lore/study_note_2"
+        }
+      ]
+    },
+    {
       "rolls": 7,
       "entries": [
         {
