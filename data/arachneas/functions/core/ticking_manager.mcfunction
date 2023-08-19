@@ -18,3 +18,7 @@ execute if score #second_9 arachneas.data matches 20 run function arachneas:core
 execute as @e[type=marker,tag=arachneas.portal] at @s run function arachneas:portal/particle
 
 schedule function arachneas:core/ticking_manager 1t
+
+
+#DEBUG
+execute as @a[tag=convention.debug] run title @s actionbar {"score":{"name": "@s","objective": "arachneas.infect_stage"}}
