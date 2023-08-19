@@ -1,4 +1,4 @@
-## function arachneas:core/tick_machine/second_1
+## function arachneas:portal/marker_1s
 
 tag @s add arachneas.travel_dim
 execute if entity @e[type=marker,distance=..4,tag=arachneas.has_equivalent] run tag @s add arachneas.has_equivalent
